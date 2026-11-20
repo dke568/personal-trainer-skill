@@ -17,8 +17,8 @@ COMMIT='3'*40
 
 def snapshot():
     config={'provider':'github','repository_full_name':'example/coach','branch':'main','athlete_id':'danya'}
-    return {'schema_version':1,'head':HEAD,'tree':TREE,'config':config,'files':{
-        P+'storage.json':json.dumps(config),P+'profile.json':json.dumps({'athlete_id':'danya','as_of':'2026-11-20'}),
+    return {'schema_version':1,'head':HEAD,'tree':TREE,'config':config,'bootstrap_storage':True,'files':{
+        P+'profile.json':json.dumps({'athlete_id':'danya','as_of':'2026-11-20'}),
         P+'programme.md':'Old plan\n',P+'events.jsonl':'',P+'decisions.md':'Old decisions\n',P+'handoff.md':'Old handoff\n'}}
 
 def change():
@@ -148,9 +148,61 @@ class ForkDiary(unittest.TestCase):
         tree['tree']=[x for x in tree['tree'] if x['path']!=P+'profile.json']
         with self.assertRaisesRegex(ValueError,'read-back mismatch'):diary.verify(b,commit,tree,head)
     def test_initial_storage_requires_explicit_bootstrap(self):
-        s=snapshot();del s['files'][P+'storage.json']
+        s=snapshot();s.pop('bootstrap_storage')
         with self.assertRaisesRegex(ValueError,'bootstrap required'):diary.prepare(s,change())
         s['bootstrap_storage']=True;b=diary.prepare(s,change())
         self.assertEqual(json.loads(files(b)[P+'storage.json']),s['config'])
+
+    def test_initialized_diary_cannot_lose_its_ledger_or_checkpoint(self):
+        s=snapshot();s['files'].update(files(diary.prepare(s,change())))
+        for name in ['changes.jsonl','checkpoint.json','CURRENT.md']:
+            with self.subTest(missing=name):
+                damaged=copy.deepcopy(s);del damaged['files'][P+name]
+                c=change();c['id']='change-2'
+                with self.assertRaisesRegex(ValueError,'incomplete initialized'):
+                    diary.prepare(damaged,c)
+
+    def test_empty_initialized_ledger_never_resets_history(self):
+        s=snapshot();s['files'].update(files(diary.prepare(s,change())))
+        s['files'][P+'changes.jsonl']=''
+        with self.assertRaisesRegex(ValueError,'empty initialized'):
+            diary.prepare(s,change())
+
+    def test_losing_all_checkpoint_files_is_not_initialization(self):
+        s=snapshot();s['files'].update(files(diary.prepare(s,change())))
+        for name in ['changes.jsonl','checkpoint.json','CURRENT.md']:del s['files'][P+name]
+        with self.assertRaisesRegex(ValueError,'missing initialized ledger'):
+            diary.prepare(s,change())
+
+    def test_integrity_map_cannot_omit_primary_state(self):
+        s=snapshot();s['files'].update(files(diary.prepare(s,change())))
+        entries=diary.jsonl(s['files'][P+'changes.jsonl'])
+        entry=entries[-1];entry['state_hashes'].pop(P+'profile.json')
+        entry.pop('entry_hash');entry['entry_hash']=diary.sha256(diary.canonical(entry))
+        s['files'][P+'changes.jsonl']=diary.append_lines('',entries)
+        with self.assertRaisesRegex(ValueError,'incomplete state integrity'):
+            diary.prepare(s,change())
+
+    def test_omitted_questions_preserve_unresolved_context(self):
+        s=snapshot();c=change();c['open_questions']=['Unknown session date']
+        s['files'].update(files(diary.prepare(s,c)))
+        c=change();c['id']='change-2';del c['open_questions']
+        out=files(diary.prepare(s,c))
+        self.assertEqual(json.loads(out[P+'checkpoint.json'])['open_questions'],['Unknown session date'])
+        self.assertIn('Unknown session date',out[P+'CURRENT.md'])
+
+    def test_explicit_question_resolution_is_allowed(self):
+        s=snapshot();c=change();c['open_questions']=['Unknown session date']
+        s['files'].update(files(diary.prepare(s,c)))
+        c=change();c['id']='change-2';c['reason']='User clarified the session date.';c['resolved_questions']=[{'question':'Unknown session date','reason':'User supplied the exact date.'}]
+        out=files(diary.prepare(s,c))
+        self.assertEqual(json.loads(out[P+'checkpoint.json'])['open_questions'],[])
+
+    def test_clearing_questions_without_resolution_is_rejected(self):
+        s=snapshot();c=change();c['open_questions']=['Unknown session date']
+        s['files'].update(files(diary.prepare(s,c)))
+        c=change();c['id']='change-2'
+        with self.assertRaisesRegex(ValueError,'explicit resolutions'):
+            diary.prepare(s,c)
 
 if __name__=='__main__':unittest.main()

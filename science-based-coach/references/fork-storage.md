@@ -42,10 +42,16 @@ CURRENT.md — вход, а не замена первичным события�
    Нужны profile.json, programme.md, events.jsonl, decisions.md, handoff.md,
    storage.json, а после первой записи также changes.jsonl, checkpoint.json,
    CURRENT.md. Пропавший обязательный файл не считать пустым журналом.
+   Если storage.json уже есть, отсутствие журнала или checkpoint — повреждение,
+   а не новый дневник. Остановиться и восстановить файлы из проверенной истории;
+   не включать bootstrap для обхода ошибки.
 3. Сформировать change с постоянным уникальным id, recorded_at, source,
    kind, status, summary, reason, next_step, open_questions, events, updates,
    publication_scope=training_only. Исправление факта должно ссылаться на
    прежнее активное событие через supersedes. Не менять ID при сетевом retry.
+   Неуказанное open_questions наследует прежние вопросы. Удаление любого вопроса
+   требует resolved_questions=[{"question":"точный прежний вопрос","reason":"основание закрытия"}].
+   Не закрывать вопрос лишь потому, что новая запись касается другой темы.
 4. Запустить scripts/fork_diary.py prepare --snapshot ... --change ... --out ... .
    Это только prepared_not_saved. Скрипт не содержит сети/токенов и не публикует.
    Замены profile/programme требуют before_sha256 прежнего содержимого.

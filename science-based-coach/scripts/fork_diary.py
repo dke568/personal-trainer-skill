@@ -87,8 +87,8 @@ def prepare(snapshot, change):
             and isinstance(source.get("note"), str) and source["note"].strip(), "invalid change source")
     if source["kind"] == "assistant_proposal":
         require(change["status"] == "proposed", "proposal cannot become a confirmed change")
-    questions = change.get("open_questions", [])
-    require(isinstance(questions, list) and all(isinstance(q, str) for q in questions), "invalid questions")
+    questions = change.get("open_questions")
+    require(questions is None or (isinstance(questions, list) and all(isinstance(q, str) for q in questions)), "invalid questions")
     prefix = "coach-data/" + athlete + "/"
     files = snapshot.get("files")
     require(isinstance(files, dict) and all(isinstance(v, str) for v in files.values()), "invalid files")
@@ -106,14 +106,26 @@ def prepare(snapshot, change):
     else:
         require(load_json(files[storage_path]) == config, "configuration snapshot mismatch")
     ledger_path = prefix + "changes.jsonl"
+    # Existing checkpoints prove this is an initialized diary, not a new ledger.
+    checkpoint_paths = [prefix + name for name in ["checkpoint.json", "CURRENT.md"]]
+    initialized = ledger_path in files or any(path in files for path in checkpoint_paths)
+    require(bootstrap or initialized, "missing initialized ledger; explicit recovery required")
+    if initialized:
+        require(ledger_path in files and all(path in files for path in checkpoint_paths),
+                "incomplete initialized diary; preserve history and recover missing files")
     ledger_text = files.get(ledger_path, "")
     ledger = validate_ledger(ledger_text)
+    if initialized:
+        require(ledger, "empty initialized ledger; preserve history and recover missing entries")
     fingerprint = sha256(canonical(change))
     prior_events = jsonl(files[prefix + "events.jsonl"])
     active_events(prior_events)
     load_json(files[prefix + "profile.json"])
     if ledger:
         require(isinstance(ledger[-1].get("state_hashes"), dict), "missing state integrity map")
+        required_state = {prefix + name for name in ["profile.json", "programme.md", "events.jsonl",
+                          "decisions.md", "handoff.md", "storage.json", "checkpoint.json", "CURRENT.md"]}
+        require(required_state <= set(ledger[-1]["state_hashes"]), "incomplete state integrity map")
         for path, expected in ledger[-1]["state_hashes"].items():
             require(path in files and sha256(files[path]) == expected, "snapshot integrity mismatch: " + path)
     for entry in ledger:
@@ -122,6 +134,18 @@ def prepare(snapshot, change):
             return {"schema_version": 1, "status": "already_recorded_in_snapshot",
                     "repository_full_name": repository, "branch": branch,
                     "snapshot_head": snapshot["head"], "change_id": change["id"], "files": []}
+    prior_questions = load_json(files[prefix + "checkpoint.json"]).get("open_questions", []) if ledger else []
+    require(isinstance(prior_questions, list) and all(isinstance(q, str) for q in prior_questions),
+            "invalid inherited questions")
+    if questions is None:
+        questions = list(prior_questions)
+    resolutions = change.get("resolved_questions", [])
+    require(isinstance(resolutions, list) and all(isinstance(r, dict)
+            and isinstance(r.get("question"), str) and isinstance(r.get("reason"), str)
+            and r["reason"].strip() for r in resolutions), "invalid question resolutions")
+    removed = set(prior_questions) - set(questions)
+    require(removed == {r["question"] for r in resolutions},
+            "removed questions need explicit resolutions with reasons")
     event_path = prefix + "events.jsonl"
     prior_events = jsonl(files[event_path])
     active_events(prior_events)
@@ -196,6 +220,7 @@ def prepare(snapshot, change):
              "kind": change["kind"], "status": change["status"], "source": source,
              "summary": change["summary"], "reason": change["reason"],
              "next_step": change["next_step"], "open_questions": questions,
+             "resolved_questions": resolutions,
              "event_ids": [e["id"] for e in new_events], "parent_head": snapshot["head"],
              "payload_sha256": fingerprint,
              "previous_entry_hash": ledger[-1]["entry_hash"] if ledger else None,
