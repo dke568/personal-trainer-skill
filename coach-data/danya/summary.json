@@ -1,14 +1,15 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "athlete_id": "danya",
   "as_of": "2026-11-21",
-  "source_parent_head": "7fb9ae86c5be00c39c7c36d5963b5ad89f3281dd",
+  "source_parent_head": "64777f37be7d5bf3b2380c0ec49e97fbe19b671b",
   "input_sha256": {
     "profile.json": "266a163af4b98882f6f0f17c7708f137a9b75aa7a1fcadb9ab724932e31b599f",
     "events.jsonl": "9f5bd49db651aa4539338361076dd3751c7055426ce0815ce3a5a843a9d1f448",
     "programme.md": "b74188017b528051e0c92860798e9a401bc3558f8638ba8299a5bb41bb4d3120",
-    "checkpoint.json": "8334e4614dfe63636befbb6ed2c23a6affb6c377ea8bb7cdca7b6e1255d824dc"
+    "checkpoint.json": "78d529cba43d3015458fb329cc0c06ce8435e2a013ccc31798002146d585c58b"
   },
+  "training_mode": null,
   "not_a_new_observation": true,
   "movement_views": [
     {

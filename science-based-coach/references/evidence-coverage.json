@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-21",
+  "method": "Ручная карта применимости к тренерским вопросам, не набор взаимоисключающих измеренных исходов. Темы перекрываются; 60 публикаций не равны 60 независимым выборкам. Trained не означает competitive/bodybuilder/powerlifter.",
+  "counts": {
+    "strength": 24,
+    "hypertrophy": 40,
+    "support_nutrition_recovery_performance": 9
+  },
+  "records": [
+    {
+      "source_id": "ACSM-2026",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "overview_of_reviews"
+    },
+    {
+      "source_id": "CITRULLINE-2026",
+      "coaching_domains": [
+        "support_nutrition_recovery_performance"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "CITRULLINE-RCT-2025",
+      "coaching_domains": [
+        "support_nutrition_recovery_performance"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_crossover_trial"
+    },
+    {
+      "source_id": "CREATINE-2021",
+      "coaching_domains": [
+        "support_nutrition_recovery_performance"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "narrative_review"
+    },
+    {
+      "source_id": "CREATINE-2025",
+      "coaching_domains": [
+        "support_nutrition_recovery_performance"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "narrative_review"
+    },
+    {
+      "source_id": "DEFICIT-2022",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "DELOAD-2024",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_trial"
+    },
+    {
+      "source_id": "ELBOW-2025",
+      "coaching_domains": [
+        "strength"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_crossover_trial"
+    },
+    {
+      "source_id": "FREQ-2019",
+      "coaching_domains": [
+        "strength"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_trial"
+    },
+    {
+      "source_id": "FREQ-2021",
+      "coaching_domains": [
+        "strength"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_trial"
+    },
+    {
+      "source_id": "LOAD-2017",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "MEMORY-2024",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "human_mechanistic_trial"
+    },
+    {
+      "source_id": "PROTEIN-2018",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "REST-2016",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_trial"
+    },
+    {
+      "source_id": "REST-2024",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "RETRAIN-2024",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_trial"
+    },
+    {
+      "source_id": "RIR-2024",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "meta_regression"
+    },
+    {
+      "source_id": "SURPLUS-2023",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_parallel_trial"
+    },
+    {
+      "source_id": "VOL-2026",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "meta_regression"
+    },
+    {
+      "source_id": "WARMUP-2020",
+      "coaching_domains": [
+        "strength"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "crossover_trial"
+    },
+    {
+      "source_id": "RX-2023",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_network_meta_analysis"
+    },
+    {
+      "source_id": "LENGTH-2026",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "narrative_review"
+    },
+    {
+      "source_id": "LENGTH-META-2025",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "ROM-2023",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review"
+    },
+    {
+      "source_id": "PERIOD-2022",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "ORDER-2021",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "CONCURRENT-2022",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "FAILURE-2023",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "PROTEIN-2022",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "ADVANCED-2026",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_network_meta_analysis"
+    },
+    {
+      "source_id": "RIR-ACCURACY-2022",
+      "coaching_domains": [
+        "strength"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "scoping_review_meta_analysis"
+    },
+    {
+      "source_id": "MACHINES-2023",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "SLEEP-2021",
+      "coaching_domains": [
+        "support_nutrition_recovery_performance"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "narrative_review_expert_consensus"
+    },
+    {
+      "source_id": "FREQUENCY-META-2019",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "VOLUME-RCT-2019",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_trial"
+    },
+    {
+      "source_id": "TRICEPS-2023",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "within_participant_trial"
+    },
+    {
+      "source_id": "HAMSTRINGS-2021",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "within_participant_trial"
+    },
+    {
+      "source_id": "SQUAT-DEPTH-2019",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_trial"
+    },
+    {
+      "source_id": "CALVES-2023",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "within_participant_trial"
+    },
+    {
+      "source_id": "SLEEP-LOSS-2022",
+      "coaching_domains": [
+        "support_nutrition_recovery_performance"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "PROTEIN-DISTRIBUTION-2018",
+      "coaching_domains": [
+        "support_nutrition_recovery_performance"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "narrative_review"
+    },
+    {
+      "source_id": "ISSN-PROTEIN-2017",
+      "coaching_domains": [
+        "support_nutrition_recovery_performance"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "position_stand"
+    },
+    {
+      "source_id": "CAFFEINE-2021",
+      "coaching_domains": [
+        "support_nutrition_recovery_performance"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "position_stand"
+    },
+    {
+      "source_id": "CREATINE-HYPERTROPHY-2023",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "VARIATION-2022",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review"
+    },
+    {
+      "source_id": "PARTIALS-2025",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "within_participant_randomized_trial"
+    },
+    {
+      "source_id": "PARTIALS-2026",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "within_participant_exploratory_trial"
+    },
+    {
+      "source_id": "STRETCH-2024",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "AUTOREG-2022",
+      "coaching_domains": [
+        "strength"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "systematic_review_meta_analysis"
+    },
+    {
+      "source_id": "IUSCA-2021",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "position_stand"
+    },
+    {
+      "source_id": "PL-METD-2021",
+      "coaching_domains": [
+        "strength"
+      ],
+      "population_relevance": "powerlifter_participants",
+      "design": "mixed_methods_multi_study"
+    },
+    {
+      "source_id": "PL-TAPER-2020",
+      "coaching_domains": [
+        "strength"
+      ],
+      "population_relevance": "sport_focused_review_not_a_new_athlete_trial",
+      "design": "review"
+    },
+    {
+      "source_id": "PL-CESSATION-2023",
+      "coaching_domains": [
+        "strength"
+      ],
+      "population_relevance": "powerlifter_participants",
+      "design": "comparative_intervention"
+    },
+    {
+      "source_id": "PL-DUP-2016",
+      "coaching_domains": [
+        "strength"
+      ],
+      "population_relevance": "powerlifter_participants",
+      "design": "comparative_intervention"
+    },
+    {
+      "source_id": "PL-TAPER-SURVEY-2026",
+      "coaching_domains": [
+        "strength"
+      ],
+      "population_relevance": "mixed_strength_sports_self_reports",
+      "design": "systematic_review_self_report"
+    },
+    {
+      "source_id": "BB-VS-PL-2014",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_trial"
+    },
+    {
+      "source_id": "BB-LOAD-2016",
+      "coaching_domains": [
+        "strength",
+        "hypertrophy"
+      ],
+      "population_relevance": "not_specifically_competitive_sample",
+      "design": "randomized_trial"
+    },
+    {
+      "source_id": "BB-NATURAL-2026",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "competitive_physique_self_reports",
+      "design": "cross_sectional_survey"
+    },
+    {
+      "source_id": "BB-PRACTICES-2022",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "competitive_physique_self_reports",
+      "design": "cross_sectional_survey"
+    },
+    {
+      "source_id": "BB-OFFSEASON-2019",
+      "coaching_domains": [
+        "hypertrophy"
+      ],
+      "population_relevance": "sport_focused_review_not_a_new_athlete_trial",
+      "design": "narrative_review"
+    }
+  ]
+}

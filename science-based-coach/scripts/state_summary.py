@@ -53,9 +53,10 @@ def build(files, *, as_of, source_head):
     for offset in (7, 0):
         end = day - timedelta(days=offset); start = end - timedelta(days=6)
         periods.append(weekly_volume(events, start.isoformat(), end.isoformat()))
-    result = {'schema_version': 1, 'athlete_id': profile['athlete_id'], 'as_of': as_of,
+    result = {'schema_version': 2, 'athlete_id': profile['athlete_id'], 'as_of': as_of,
               'source_parent_head': source_head,
               'input_sha256': {name: digest(files[name]) for name in INPUTS},
+              'training_mode': profile.get('training_mode'),
               'not_a_new_observation': True, 'movement_views': list(movement_views.values()),
               'dated_completed_sessions': exact[-6:],
               'sessions_with_uncertain_date_or_completion': uncertain,
@@ -69,6 +70,8 @@ def build(files, *, as_of, source_head):
     lines = ['# Сводка для продолжения', '', 'Сформирована: '+as_of+'. Это дата сводки, а не новых замеров.',
              'Источник: [события](events.jsonl), [план](programme.md), [профиль](profile.json).', '',
              '## Подтверждённые с точной датой (последние шесть)', '']
+    if result['training_mode']:
+        mode=result['training_mode'];lines[4:4]=['Режим: '+mode['mode']+'; приоритет: '+str(mode.get('priority'))+'.', '']
     def session(e):
         label = e['date'] or e.get('period') or 'дата неизвестна'
         lines.append('- '+label+' · '+e['id']+' · '+e['status']+' / '+e['date_precision'])
@@ -97,6 +100,9 @@ def build(files, *, as_of, source_head):
 def verify(files):
     saved = json.loads(files['summary.json'])
     rebuilt, markdown = build(files, as_of=saved['as_of'], source_head=saved['source_parent_head'])
+    if saved.get('schema_version') == 1:
+        rebuilt.pop('training_mode', None)
+        rebuilt['schema_version'] = 1
     if rebuilt != saved or markdown != files['SUMMARY.md']:
         raise ValueError('stale or altered derived summary; regenerate with the primary state')
     return {'status': 'verified', 'as_of': saved['as_of'], 'not_a_new_observation': True}

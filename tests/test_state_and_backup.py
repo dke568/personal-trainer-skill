@@ -85,4 +85,9 @@ class StateAndBackup(unittest.TestCase):
     def test_non_object_backup_is_a_controlled_error(self):
         with self.assertRaisesRegex(ValueError,'must be an object'):backup.check([])
 
+    def test_version_one_summary_and_backup_remain_readable(self):
+        s=self.state();d=json.loads(s['summary.json']);d.pop('training_mode',None);d['schema_version']=1
+        s['summary.json']=json.dumps(d,ensure_ascii=False,indent=2)+'\n'
+        self.assertEqual(summary.verify(s)['status'],'verified')
+
 if __name__=='__main__':unittest.main()

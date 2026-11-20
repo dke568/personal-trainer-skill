@@ -20,9 +20,19 @@ class EvaluationArchive(unittest.TestCase):
         self.assertTrue(v['file_sha256'])
     def test_tested_behavioral_materials_match_recorded_version(self):
         d=json.loads((ROOT/'tests/evaluations/2026-11-21/responses-and-ratings.json').read_text(encoding='utf-8'))
-        # The backup parser received two documented post-run input-validation fixes.
-        # Core coaching material actually used for the answers must remain identical.
-        for name in ['SKILL.md','references/fork-storage.md','references/backup-recovery.md','references/quantitative-evidence.json']:
-            self.assertEqual(hashlib.sha256((ROOT/'science-based-coach'/name).read_bytes()).hexdigest(),
+        archived=json.loads((ROOT/'tests/evaluations/2026-11-21/materials.json').read_text(encoding='utf-8'))
+        # Historical materials stay pinned while the current coach can evolve.
+        for name,text in archived['files'].items():
+            self.assertEqual(hashlib.sha256(text.encode('utf-8')).hexdigest(),
                              d['skill_version']['file_sha256'][name],name)
+
+    def test_mode_evaluation_retains_eight_full_answers_and_historical_materials(self):
+        folder=ROOT/'tests/evaluations/2026-11-21-modes'
+        d=json.loads((folder/'responses-and-ratings.json').read_text(encoding='utf-8'))
+        m=json.loads((folder/'materials.json').read_text(encoding='utf-8'))
+        self.assertEqual(len(d['answers']),8)
+        self.assertEqual({r['id'] for r in d['answers']},{r['id'] for r in d['assessment']})
+        for r in d['answers']:self.assertTrue(r['prompt']);self.assertGreater(len(r['response']),100)
+        for name,text in m['files'].items():self.assertEqual(hashlib.sha256(text.encode('utf-8')).hexdigest(),m['sha256'][name])
+
 if __name__=='__main__':unittest.main()

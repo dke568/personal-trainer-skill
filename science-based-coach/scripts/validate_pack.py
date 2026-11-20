@@ -13,8 +13,16 @@ def validate(skill, scenarios=None):
         if not ok:raise ValueError(message)
     sources=read('sources.json')['sources'];ids={s['id'] for s in sources}
     audit_registry(skill/'references/sources.json')
-    check(len(sources)>=50,'incomplete core source coverage')
+    check(len(sources)>=60,'incomplete core source coverage')
     check(len({s['doi'].lower() for s in sources})==len(sources),'duplicate DOI')
+    modes=read('training-modes.json')['modes']
+    check({m['id'] for m in modes}=={'hypertrophy','strength','hybrid'} and len(modes)==3,'invalid modes')
+    for m in modes:
+        check(set(m['evidence_ids'])<=ids and m.get('programming') and m.get('monitor'),'invalid mode evidence/rules')
+    coverage=read('evidence-coverage.json')
+    check(len(coverage['records'])==len(sources) and {r['source_id'] for r in coverage['records']}==ids,'incomplete source map')
+    from collections import Counter
+    check(dict(Counter(d for r in coverage['records'] for d in r['coaching_domains']))==coverage['counts'],'coverage count mismatch')
     app=read('critical-appraisals.json')['appraisals'];check(len(app)>=15,'incomplete appraisals')
     check(len({a['id'] for a in app})==len(app),'duplicate appraisal')
     source_map={s['id']:s for s in sources}
@@ -66,7 +74,7 @@ def validate(skill, scenarios=None):
         data=json.loads(Path(scenarios).read_text(encoding='utf-8'))['cases'];cases=len(data)
         check(cases>=25 and len({x['id'] for x in data})==cases,'incomplete or duplicate scenarios')
         check(all(x.get('synthetic') is True and x.get('criteria') and x.get('prompt') for x in data),'invalid scenario')
-    return {'sources':len(sources),'critical_appraisals':len(app),'decision_cards':len(cards),'topics':len(topics),'quantitative_records':len(quant),'records_with_intervals':interval_records,'educational_outlines':len(edu),'scenario_definitions':cases,'check':'structure and references only; not scientific or behavioral efficacy validation'}
+    return {'sources':len(sources),'training_modes':len(modes),'critical_appraisals':len(app),'decision_cards':len(cards),'topics':len(topics),'quantitative_records':len(quant),'records_with_intervals':interval_records,'educational_outlines':len(edu),'scenario_definitions':cases,'check':'structure and references only; not scientific or behavioral efficacy validation'}
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--skill',default=str(Path(__file__).resolve().parents[1]));p.add_argument('--scenarios');a=p.parse_args()

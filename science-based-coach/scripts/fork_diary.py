@@ -9,6 +9,7 @@ import re
 import sys
 from coach_tools import active_events, iso_day, require, validate_event
 from state_summary import build as build_summary
+from training_modes import validate_selection
 
 
 def canonical(obj):
@@ -184,6 +185,10 @@ def prepare(snapshot, change):
                     "a proposal cannot rewrite factual profile state")
             profile = load_json(update["content"])
             require(profile.get("athlete_id") == athlete, "profile athlete mismatch")
+            if "training_mode" in profile:
+                validate_selection(profile["training_mode"])
+                require(iso_day(profile["training_mode"]["selected_at"], "selected_at") <=
+                        iso_day(change["recorded_at"], "recorded_at"), "mode selection cannot be in the future")
         output[path] = update["content"]
         if name == "programme.md":
             output[path] = "Статус последней правки: " + change["status"] + "; выполнение не подтверждено.\n\n" + output[path]

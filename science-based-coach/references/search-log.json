@@ -82,6 +82,88 @@
         "VOL-2026"
       ],
       "selection_reason": "Locate primary publication and exact numerical result for an existing coaching question; secondary summaries not used as the evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "powerlifting tapering peaking maximal strength systematic review 2021 2025",
+      "selected_source_ids": [
+        "PL-TAPER-2020",
+        "PL-CESSATION-2023",
+        "PL-TAPER-SURVEY-2026"
+      ],
+      "selection_reason": "Targeted primary-source retrieval for training modes; descriptive practices kept separate from causal evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "minimum effective training dose powerlifters Androulakis Korakakis 2021",
+      "selected_source_ids": [
+        "PL-METD-2021"
+      ],
+      "selection_reason": "Targeted primary-source retrieval for training modes; descriptive practices kept separate from causal evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "bodybuilding powerlifting type training muscular adaptations well trained men 2014 Schoenfeld",
+      "selected_source_ids": [
+        "BB-VS-PL-2014"
+      ],
+      "selection_reason": "Targeted primary-source retrieval for training modes; descriptive practices kept separate from causal evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "powerlifters modified daily undulating periodization 2016 18 subjects Zourdos",
+      "selected_source_ids": [
+        "PL-DUP-2016"
+      ],
+      "selection_reason": "Targeted primary-source retrieval for training modes; descriptive practices kept separate from causal evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "bodybuilders training practices survey natural bodybuilding resistance training systematic review",
+      "selected_source_ids": [
+        "BB-NATURAL-2026",
+        "BB-PRACTICES-2022"
+      ],
+      "selection_reason": "Targeted primary-source retrieval for training modes; descriptive practices kept separate from causal evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "recommendations natural bodybuilding contest preparation resistance cardiovascular training Helms 2015 pubmed",
+      "selected_source_ids": [],
+      "selection_reason": "Targeted primary-source retrieval for training modes; descriptive practices kept separate from causal evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "Morton 2016 neither load systemic hormones resistance trained young men 49 hypertrophy",
+      "selected_source_ids": [
+        "BB-LOAD-2016"
+      ],
+      "selection_reason": "Targeted primary-source retrieval for training modes; descriptive practices kept separate from causal evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "\"Nutrition Recommendations for Bodybuilders in the Off-Season\" pubmed",
+      "selected_source_ids": [
+        "BB-OFFSEASON-2019"
+      ],
+      "selection_reason": "Targeted primary-source retrieval for training modes; descriptive practices kept separate from causal evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "\"Training Practices Among Spanish Natural Elite Bodybuilders\" DOI 2026",
+      "selected_source_ids": [
+        "BB-NATURAL-2026"
+      ],
+      "selection_reason": "Targeted primary-source retrieval for training modes; descriptive practices kept separate from causal evidence."
     }
   ],
   "direct_reads": [
@@ -104,7 +186,22 @@
       "source_id": "VOL-2026",
       "url": "https://osf.io/6z3xu",
       "result": "403; no unseen numeric slope or interval extracted."
+    },
+    {
+      "source_id": "PL-METD-2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8435792/",
+      "result": "Study 3/4 selected sections read; other new entries metadata and abstracts verified through Europe PMC core by exact PMID."
     }
   ],
-  "correction_check": "Earlier audit checked Crossmark for VOL-2026 (current). No claim of exhaustive retraction search for all 50. Protein commentary/reply remain linked in source registry."
+  "correction_check": "Earlier audit checked Crossmark for VOL-2026 (current). No claim of exhaustive retraction search for all 50. Protein commentary/reply remain linked in source registry.",
+  "exclusions": [
+    {
+      "pmid": "24998610",
+      "reason": "Older bodybuilding preparation review located, not added to this training-mode batch; existing IUSCA and newer outcome reviews retained."
+    },
+    {
+      "pmid": "22990567",
+      "reason": "Older competitive-bodybuilding survey; selected newer 235-person survey with explicit pharmacological limitation instead."
+    }
+  ]
 }
