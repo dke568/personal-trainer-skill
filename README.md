@@ -6,6 +6,8 @@
 Этот форк перерабатывает [npapatheodorou/personal-trainer-skill](https://github.com/npapatheodorou/personal-trainer-skill).
 Архитектурные идеи других проектов и условия использования описаны в [ATTRIBUTION.md](ATTRIBUTION.md).
 
+**Новый чат начинает здесь: [CURRENT — точка продолжения](coach-data/danya/CURRENT.md).**
+
 ## Концепт
 
 1. **Сначала факты.** Профиль, программа, выполненные подходы и их источники.
@@ -20,12 +22,12 @@
 
 ## Научная база
 
-В [реестре](science-based-coach/references/sources.json) — **30 научных работ**:
+В [реестре](science-based-coach/references/sources.json) — **50 научных работ**:
 позиция ACSM 2026, метаанализы объёма/частоты/близости к отказу,
 исследования белка, энергетического баланса, отдыха, возвращения после
 перерыва, креатина, цитруллина и налокотников.
 
-Библиография и аннотации проверены. Для **7 работ** разобраны выбранные разделы
+Библиография и аннотации проверены. Для **15 работ** разобраны выбранные разделы
 полного текста (объём указан в review_scope); дополнительно прочитаны критика
 белкового метаанализа и ответ авторов 2025 года. Это целевой рабочий реестр,
 не полный систематический обзор или независимый пересчёт всех результатов. Год выпуска и дата первой публикации различаются.
@@ -50,6 +52,12 @@
 Практическая инструкция: [работа тренера](science-based-coach/references/coaching-framework.md).
 Научный разбор: [досье](science-based-coach/references/evidence-dossiers.md) и
 [матрица решений](science-based-coach/references/decision-matrix.md).
+**15 структурированных критических разборов**, **30 карточек решений**,
+**12 тематических направлений**, **25 учебных сценариев**.
+[Критические карточки](science-based-coach/references/critical-appraisals.json),
+[решения](science-based-coach/references/decision-cards.json),
+[темы](science-based-coach/references/topics.json), [сценарии](tests/coach-scenarios.json).
+
 База расширена по амплитуде, длине мышцы, отказу, порядку упражнений,
 периодизации, кардио, белку и сложным методам. Противоречия не скрываются.
 Метод и границы расширения: [RESEARCH-METHOD.md](docs/RESEARCH-METHOD.md).
@@ -100,9 +108,14 @@
 
 ## Начало нового чата
 
+Каждый новый тренировочный факт, исправление, предпочтение или изменение плана
+сохраняется в самом форке сразу — вместе с причиной и следующим шагом.
+Правило записи: [fork-storage.md](science-based-coach/references/fork-storage.md).
+Публикация подтверждается чтением GitHub; локальная запись не считается успехом.
+
 Дай агенту доступ к этому репозиторию и скажи:
 
-> Используй science-based-coach. Прочитай README, coach-data/danya/handoff.md,
+> Используй science-based-coach. Прочитай свежий coach-data/danya/CURRENT.md,
 > профиль, журнал и действующий план. Продолжай существующую программу.
 > Разделяй выполненное и запланированное; не восстанавливай неизвестные даты.
 
@@ -121,6 +134,7 @@ python science-based-coach/scripts/coach_tools.py validate --log coach-data/dany
 python science-based-coach/scripts/coach_tools.py weekly-volume --log coach-data/danya/events.jsonl --start 2026-11-01 --end 2026-11-20
 python science-based-coach/scripts/coach_tools.py audit-sources --registry science-based-coach/references/sources.json
 python -m unittest discover -s tests -v
+python science-based-coach/scripts/validate_pack.py --scenarios tests/coach-scenarios.json
 ~~~
 
 Оценка 1ПМ — расчёт, не измеренный максимум. Недельный счётчик использует

@@ -75,6 +75,8 @@ def validate_event(event):
     require(source.get("kind") in KINDS, "invalid source.kind")
     require(isinstance(source.get("note"), str) and source["note"].strip(),
             "source.note must describe provenance")
+    if event["type"] in {"session", "measurement"}:
+        require(source["kind"] != "assistant_proposal", "assistant proposal cannot be a factual event")
     if event["type"] in {"session", "measurement"} and event["status"] == "completed":
         require(source["kind"] != "assistant_proposal",
                 "assistant proposal cannot confirm performed work")

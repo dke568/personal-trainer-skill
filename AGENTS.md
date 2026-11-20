@@ -8,3 +8,11 @@ For engineering, preserve provenance and append-only history. Run the standard-l
 tests and source audit after relevant changes. Do not turn unknown dates into facts,
 examples into actual sessions, or offline structure checks into scientific validation.
 Never commit private clinical state, credentials or references/user-context.json.
+
+The owner's standing instruction: every new training fact/correction/plan adjustment
+must be saved immediately to this fork with its reason and continuation checkpoint.
+Read fresh coach-data/danya/CURRENT.md before personal coaching. Follow
+science-based-coach/references/fork-storage.md; proposals are not completed work.
+Publish related diary/state files atomically with expected-head protection and verify
+GitHub read-back before claiming saved. If writing fails, disclose the pending change.
+Do not automatically copy private clinical notes into the public training diary.

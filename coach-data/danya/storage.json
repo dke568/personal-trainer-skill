@@ -1,0 +1,9 @@
+{
+  "provider": "github",
+  "repository_full_name": "dke568/personal-trainer-skill",
+  "branch": "main",
+  "athlete_id": "danya",
+  "entrypoint": "coach-data/danya/CURRENT.md",
+  "save_policy": "immediate_atomic_verified",
+  "public_scope": "training_data_only"
+}

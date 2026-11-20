@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {
+      "id": "T01",
+      "name": "Оценка доказательств",
+      "reference": "scientific-method.md",
+      "evidence_ids": [
+        "ACSM-2026",
+        "IUSCA-2021"
+      ]
+    },
+    {
+      "id": "T02",
+      "name": "Недельный объём и частота",
+      "reference": "training.md",
+      "evidence_ids": [
+        "VOL-2026",
+        "FREQUENCY-META-2019"
+      ]
+    },
+    {
+      "id": "T03",
+      "name": "Усилие и RIR",
+      "reference": "training.md",
+      "evidence_ids": [
+        "FAILURE-2023",
+        "RIR-ACCURACY-2022"
+      ]
+    },
+    {
+      "id": "T04",
+      "name": "Нагрузка и прогрессия",
+      "reference": "progression-recovery.md",
+      "evidence_ids": [
+        "AUTOREG-2022",
+        "PERIOD-2022"
+      ]
+    },
+    {
+      "id": "T05",
+      "name": "Отдых и утомление",
+      "reference": "progression-recovery.md",
+      "evidence_ids": [
+        "REST-2024",
+        "DELOAD-2024"
+      ]
+    },
+    {
+      "id": "T06",
+      "name": "Амплитуда и выбор упражнений",
+      "reference": "exercise-selection.md",
+      "evidence_ids": [
+        "PARTIALS-2026",
+        "MACHINES-2023"
+      ]
+    },
+    {
+      "id": "T07",
+      "name": "Обучение технике",
+      "reference": "coaching-framework.md",
+      "evidence_ids": [
+        "SQUAT-DEPTH-2019"
+      ]
+    },
+    {
+      "id": "T08",
+      "name": "Энергия и белок",
+      "reference": "nutrition.md",
+      "evidence_ids": [
+        "DEFICIT-2022",
+        "PROTEIN-2022"
+      ]
+    },
+    {
+      "id": "T09",
+      "name": "Сон и совместные нагрузки",
+      "reference": "sleep-recovery.md",
+      "evidence_ids": [
+        "SLEEP-2021",
+        "CONCURRENT-2022"
+      ]
+    },
+    {
+      "id": "T10",
+      "name": "Добавки",
+      "reference": "supplements.md",
+      "evidence_ids": [
+        "CREATINE-HYPERTROPHY-2023",
+        "CAFFEINE-2021"
+      ]
+    },
+    {
+      "id": "T11",
+      "name": "Измерения и сопоставимость",
+      "reference": "measurement.md",
+      "evidence_ids": [
+        "CREATINE-HYPERTROPHY-2023"
+      ]
+    },
+    {
+      "id": "T12",
+      "name": "Границы и общение",
+      "reference": "health-boundaries.md",
+      "evidence_ids": []
+    }
+  ]
+}

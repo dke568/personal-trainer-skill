@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-21",
+  "method": "Структурированный критический разбор перечисленных разделов полных текстов. Не формальный независимый RoB/GRADE-аудит; приложения и исходные данные не пересчитаны. Неизвлечённые сведения обозначены прямо.",
+  "appraisals": [
+    {
+      "id": "ACSM-2026",
+      "question": "Какие общие назначения поддерживает обобщение обзоров?",
+      "design": "overview_of_reviews",
+      "population_and_comparison": "Здоровые взрослые; обзор обзоров",
+      "methods_reviewed": "Поиск до октября 2024; AMSTAR и авторская агрегация уверенности; перекрытие исходных работ оценено.",
+      "main_result": "Более высокий объём связан с ростом, но точный личный оптимум не установлен.",
+      "risk_and_measurement_limits": "Перекрытие обзоров и разнородные измерения; не все выводы равны доказанной эквивалентности.",
+      "funding_and_conflicts": "Декларации отдельно не оценены.",
+      "application": "Использовать как общую карту; уточнять тематическими работами после даты поиска.",
+      "unresolved": "Что меняют новые исследования тренированных после 2024?",
+      "working_confidence": "Умеренная для общих принципов; низкая для конкретной личной дозы.",
+      "review_scope": {
+        "sections_read": [
+          "Information Sources and Search Strategy",
+          "Methodological Quality Assessment and Evidence Synthesis",
+          "Overlap of Papers",
+          "Hypertrophy"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/",
+      "doi": "10.1249/mss.0000000000003897",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "RX-2023",
+      "question": "Можно ли выбрать лучшую схему по сетевому рейтингу?",
+      "design": "systematic_review_network_meta_analysis",
+      "population_and_comparison": "178 исследований силы; 119 гипертрофии; здоровые взрослые",
+      "methods_reviewed": "Категории веса/подходов/частоты; RoB2 и анализ чувствительности; 119 исследований в сети размеров.",
+      "main_result": "Большинство пар схем неопределённо различается; лучшие ранги не задают личного оптимума.",
+      "risk_and_measurement_limits": "У включённых работ часто некоторые опасения или высокий RoB; неодинаковые измерения и ограничения транзитивности.",
+      "funding_and_conflicts": "Прямого финансирования обзора нет; у одного автора отраслевые связи.",
+      "application": "Не менять сплит ради первого места в рейтинге.",
+      "unresolved": "Насколько устойчивы различия в длинных исследованиях опытных атлетов?",
+      "working_confidence": "Умеренная для общих тенденций; низкая для ранжирования личных схем.",
+      "review_scope": {
+        "sections_read": [
+          "Risk of bias (methods and results)",
+          "Comparing RTxs",
+          "Limitations",
+          "Conclusion",
+          "Footnotes: funding and competing interests"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10579494/",
+      "doi": "10.1136/bjsports-2023-106807",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "LENGTH-2026",
+      "question": "Как связаны длина мышцы и сопротивление?",
+      "design": "narrative_review",
+      "population_and_comparison": "Преимущественно нетренированные; короткие вмешательства 5–15 недель",
+      "methods_reviewed": "Несистематический обзор изометрии, амплитуды и упражнений; большинство вмешательств короткие и на новичках.",
+      "main_result": "Предложено взаимодействие длины и момента силы; это концептуальное объяснение.",
+      "risk_and_measurement_limits": "Отбор не систематический; механистические гипотезы не заменяют прямые сравнения для нужной мышцы.",
+      "funding_and_conflicts": "Авторы не заявили конфликтов; финансирование отдельно не извлечено.",
+      "application": "Не менять все упражнения на частичные повторы; сохранять конкурирующие данные.",
+      "unresolved": "Грудь/широчайшие и опытные атлеты исследованы недостаточно.",
+      "working_confidence": "Низкая/умеренная, зависит от сравнения.",
+      "review_scope": {
+        "sections_read": [
+          "Experimental approach to the problem",
+          "Gaps, limitations, and research recommendations",
+          "Conclusions",
+          "Practical considerations",
+          "Conflict of Interest"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12951042/",
+      "doi": "10.1055/a-2733-7605",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "FAILURE-2023",
+      "question": "Обязателен ли абсолютный отказ для роста?",
+      "design": "systematic_review_meta_analysis",
+      "population_and_comparison": "15 исследований; здоровые взрослые",
+      "methods_reviewed": "15 исследований; TESTEX; разные определения отказа; анализ чувствительности к корреляции измерений.",
+      "main_result": "Небольшой объединённый эффект не устанавливает превосходства абсолютного отказа.",
+      "risk_and_measurement_limits": "Нечёткий фактический RIR, небольшие подгруппы, неполная отчётность рандомизации и выбывания.",
+      "funding_and_conflicts": "Прямой поддержки обзора нет; часть авторов получает доход в фитнес-индустрии.",
+      "application": "Калибровать усилие и переносимость; не выдавать конкретный RIR за вычисленный оптимум.",
+      "unresolved": "Какая фактическая дистанция была уравнена между группами?",
+      "working_confidence": "Умеренная против обязательности отказа; точная доза неясна.",
+      "review_scope": {
+        "sections_read": [
+          "Inclusion Criteria",
+          "Methodological Quality Assessment",
+          "Methodological Quality",
+          "Limitations",
+          "Conclusions",
+          "Funding",
+          "Conflict of interest"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9935748/",
+      "doi": "10.1007/s40279-022-01784-y",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "CONCURRENT-2022",
+      "question": "Мешает ли кардио силе и росту?",
+      "design": "systematic_review_meta_analysis",
+      "population_and_comparison": "43 исследования; 15 сравнений гипертрофии",
+      "methods_reviewed": "43 исследования; 15 с размерами; PEDro; сравнение с той же силовой программой без кардио.",
+      "main_result": "Для гипертрофии средний эффект близок к нулю; взрывная сила — другой исход.",
+      "risk_and_measurement_limits": "Умеренное качество, разнородные дозы и сегментарные/локальные измерения.",
+      "funding_and_conflicts": "Прямого финансирования обзора и релевантных конфликтов не заявлено.",
+      "application": "Подбирать дозу и распределение по ногам/восстановлению; не запрещать кардио автоматически.",
+      "unresolved": "Сохранится ли результат при очень высоком объёме и недостаточном питании?",
+      "working_confidence": "Умеренная для исследованных условий.",
+      "review_scope": {
+        "sections_read": [
+          "Eligibility Criteria",
+          "Assessment of Methodological Quality",
+          "Muscle Hypertrophy",
+          "Conclusion",
+          "Funding",
+          "Conflict of interest"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8891239/",
+      "doi": "10.1007/s40279-021-01587-7",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "PROTEIN-2022",
+      "question": "Что даёт дополнительный белок на фоне силовых?",
+      "design": "systematic_review_meta_analysis",
+      "population_and_comparison": "74 РКИ; здоровые взрослые без ожирения; без целевого похудения",
+      "methods_reviewed": "74 РКИ; трёхуровневая модель; исключены целевое похудение, ожирение и заболевания.",
+      "main_result": "Небольшой средний эффект на безжировую массу, не доказанный личный потолок.",
+      "risk_and_measurement_limits": "Питание и измерения неодинаковы; перенос на дефицит ограничен. Критика 2025 прочитана с ответом; пересчёта нет.",
+      "funding_and_conflicts": "Заявлены отраслевое финансирование и связи нескольких авторов.",
+      "application": "Обеспечивать достаточность; не обещать выгоду перехода с уже достаточной дозы на гораздо большую.",
+      "unresolved": "Изолирован ли белок от энергетических различий и каков эффект при достаточном исходном потреблении?",
+      "working_confidence": "Умеренная для небольшого среднего эффекта, ниже для точного личного порога.",
+      "review_scope": {
+        "sections_read": [
+          "Eligibility criteria",
+          "Risk of bias, heterogeneity, quality of the evidence, and sensitivity analysis",
+          "Meta-analysis and meta-regression",
+          "Funding",
+          "Conflict of interest"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8978023/",
+      "doi": "10.1002/jcsm.12922",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "ADVANCED-2026",
+      "question": "Дают ли сложные методы больше роста?",
+      "design": "systematic_review_network_meta_analysis",
+      "population_and_comparison": "Здоровые, преимущественно нетренированные/умеренно тренированные; средний сообщённый стаж 1,9 года",
+      "methods_reviewed": "RoB2; для гипертрофии систематический разбор 17 исследований, без сети.",
+      "main_result": "Последовательного превосходства метода не установлено.",
+      "risk_and_measurement_limits": "Мало опытных участников; неодинаковые дозы и риск ошибок; ранги других исходов неприменимы.",
+      "funding_and_conflicts": "Прямого финансирования и конфликтов не заявлено.",
+      "application": "Добавлять метод только под задачу/предпочтение, без обещания преимущества роста.",
+      "unresolved": "Помогает ли метод очень опытным при сопоставимых дозах?",
+      "working_confidence": "Низкая/умеренная.",
+      "review_scope": {
+        "sections_read": [
+          "Assessment of Reporting Quality",
+          "Research Reporting Quality",
+          "Hypertrophy",
+          "Limitations",
+          "Conclusion",
+          "Funding",
+          "Conflict of interest"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13457283/",
+      "doi": "10.1007/s40279-026-02428-1",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "MACHINES-2023",
+      "question": "Лучше ли тренажёры или свободные веса?",
+      "design": "systematic_review_meta_analysis",
+      "population_and_comparison": "13 исследований; только 5 с гипертрофией",
+      "methods_reviewed": "13 исследований, 5 с размерами; TESTEX и чувствительность; не только прямые измерения мышц.",
+      "main_result": "Средней разницы размеров не выявлено; сила специфична тренировочному тесту.",
+      "risk_and_measurement_limits": "Мало сравнений размеров, разные измерения, короткие сроки и смешанные программы.",
+      "funding_and_conflicts": "Декларации финансирования отдельно не разобраны.",
+      "application": "Выбирать под задачу, устойчивость и удобство; не считать штангу обязательной для каждого движения.",
+      "unresolved": "Сохранятся ли различия при прямой визуализации конкретной мышцы?",
+      "working_confidence": "Умеренная для специфичности силы, ниже для эквивалентности роста.",
+      "review_scope": {
+        "sections_read": [
+          "Inclusion criteria",
+          "Methodological quality",
+          "Quality assessment",
+          "Hypertrophy results and discussion",
+          "Weaknesses",
+          "Conclusion"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Критический разбор перечисленных разделов, не повторное исследование или аудит всех приложений."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10426227/",
+      "doi": "10.1186/s13102-023-00713-4",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "VOLUME-RCT-2019",
+      "question": "Нужен ли очень большой объём тренированному?",
+      "design": "randomized_trial",
+      "population_and_comparison": "45 включено, 34 завершили; тренированные мужчины; 8 недель",
+      "methods_reviewed": "45 рандомизировано, 34 завершили; 8 недель; 1/3/5 подходов за упражнение, 3 дня; УЗИ.",
+      "main_result": "Высокий объём улучшал часть участков; различия силы не установлены.",
+      "risk_and_measurement_limits": "11 выбывших, небольшой итоговый размер, участки вместо всего объёма мышцы; непривычный отказ.",
+      "funding_and_conflicts": "Грант PSC CUNY; добавки предоставлены компанией; конфликты не заявлены.",
+      "application": "Обосновывает пробу дозы, а не автоматическое назначение максимальной программы.",
+      "unresolved": "Каковы долгосрочная переносимость и исходы выбывших?",
+      "working_confidence": "Умеренная для данного эксперимента, низкая для универсального оптимума.",
+      "review_scope": {
+        "sections_read": [
+          "Subjects",
+          "RT Procedures",
+          "Statistical Analyses",
+          "Results and muscle-thickness outcomes",
+          "Discussion limitations",
+          "Acknowledgments"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Критический разбор перечисленных разделов, не повторное исследование или аудит всех приложений."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6303131/",
+      "doi": "10.1249/mss.0000000000001764",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "HAMSTRINGS-2021",
+      "question": "Как выбирать положение сгибания ног?",
+      "design": "within_participant_trial",
+      "population_and_comparison": "20 взрослых без регулярных силовых за предшествующий год; 12 недель",
+      "methods_reviewed": "20 нетренированных; 12 недель; случайное распределение ног, МРТ со слепой оценкой, смешанная модель.",
+      "main_result": "Сидячее положение улучшало рост двусуставных мышц; не все мышцы различались.",
+      "risk_and_measurement_limits": "Малая удобная выборка и внутрисубъектный дизайн; результат не доказывает профилактику травм.",
+      "funding_and_conflicts": "Грант Mizuno Sports Promotion Foundation; конфликты не заявлены.",
+      "application": "Рассматривать сидячее сгибание при переносимости, не добавляя его поверх всей работы автоматически.",
+      "unresolved": "Каков эффект у опытных при другом оборудовании и объёме?",
+      "working_confidence": "Умеренная в пределах данного сравнения.",
+      "review_scope": {
+        "sections_read": [
+          "Study Design and Participants",
+          "Part 1 randomization, MRI and statistics",
+          "Part 1 muscle-volume results",
+          "Conclusions",
+          "Acknowledgments"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Критический разбор перечисленных разделов, не повторное исследование или аудит всех приложений."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7969179/",
+      "doi": "10.1249/mss.0000000000002523",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "CALVES-2023",
+      "question": "Чем отличаются подъёмы стоя и сидя?",
+      "design": "within_participant_trial",
+      "population_and_comparison": "14 нетренированных; 12 недель",
+      "methods_reviewed": "14 нетренированных; 12 недель; парные ноги, МРТ со слепой оценкой.",
+      "main_result": "Для икроножных преимущество стоя; для камбаловидной различия не установлены.",
+      "risk_and_measurement_limits": "Малая выборка; неодинаковая повторяемость МРТ. Для части постхок-сравнений применён непарный тест при парном дизайне.",
+      "funding_and_conflicts": "Грант JSPS; коммерческих конфликтов не заявлено.",
+      "application": "Выбирать по целевой мышце и переносимости; нельзя обещать те же проценты роста.",
+      "unresolved": "Нужна репликация у тренированных; статистика самостоятельно не пересчитана.",
+      "working_confidence": "Умеренная для направления, ниже для точной величины.",
+      "review_scope": {
+        "sections_read": [
+          "Methods",
+          "Results",
+          "Discussion",
+          "Funding Statement",
+          "Conflict of interest"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Критический разбор перечисленных разделов, не повторное исследование или аудит всех приложений."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10753835/",
+      "doi": "10.3389/fphys.2023.1272106",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "CREATINE-HYPERTROPHY-2023",
+      "question": "Есть ли эффект по прямым локальным измерениям?",
+      "design": "systematic_review_meta_analysis",
+      "population_and_comparison": "10 исследований; 44 локальных исхода",
+      "methods_reviewed": "10 исследований; байесовская многоуровневая модель; МРТ/КТ/УЗИ; качество Downs–Black.",
+      "main_result": "Общий стандартизованный эффект 0,11, интервал −0,02…0,25.",
+      "risk_and_measurement_limits": "Лишь два исследования тренированных; мало женщин; подгруппы возраста/длительности смешиваются.",
+      "funding_and_conflicts": "Финансирование и декларации отдельно не извлечены.",
+      "application": "Не переводить рост веса в точные килограммы новых мышц; обсуждать небольшой средний эффект.",
+      "unresolved": "Какова роль воды и как меняется эффект с опытом?",
+      "working_confidence": "Низкая/умеренная для величины локальной прибавки.",
+      "review_scope": {
+        "sections_read": [
+          "Inclusion criteria",
+          "Methodological quality",
+          "Statistics",
+          "Univariate standardized differences",
+          "Study quality",
+          "Discussion",
+          "Conclusions"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Критический разбор перечисленных разделов, не повторное исследование или аудит всех приложений."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10180745/",
+      "doi": "10.3390/nu15092116",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "PARTIALS-2025",
+      "question": "Лучше ли растянутые частичные у тренированных?",
+      "design": "within_participant_randomized_trial",
+      "population_and_comparison": "30 набрано; тренированные взрослые; 8 недель",
+      "methods_reviewed": "30 набрано; 8 недель; рандомизация конечностей, пререгистрация, слепые УЗИ/статистика, байесовская модель.",
+      "main_result": "Различия сгибателей/разгибателей локтя были близки к нулю.",
+      "risk_and_measurement_limits": "Короткий срок, неточный контроль амплитуды, возможен перенос между руками и фиксированный порядок тестов.",
+      "funding_and_conflicts": "Заявлены фитнес-коммерческие связи части авторов.",
+      "application": "Возможна ограниченная проба; широчайшие по размеру здесь не измерены.",
+      "unresolved": "Каков эффект для других мышц и более долгого периода?",
+      "working_confidence": "Умеренная для конкретных измерений, ниже для обобщения.",
+      "review_scope": {
+        "sections_read": [
+          "Participants",
+          "Blinding",
+          "Statistical analysis",
+          "Muscular adaptations",
+          "Discussion",
+          "Competing Interests"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Критический разбор перечисленных разделов, не повторное исследование или аудит всех приложений."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11829627/",
+      "doi": "10.7717/peerj.18904",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "AUTOREG-2022",
+      "question": "Стоит ли обязательно заменить проценты на RPE/скорость?",
+      "design": "systematic_review_meta_analysis",
+      "population_and_comparison": "15 исследований; тренированные; 6 про нагрузку, 9 про объём",
+      "methods_reviewed": "15 исследований; фиксированная модель; RoB2; отдельные анализы нагрузки и объёма.",
+      "main_result": "Убедительного преимущества авторегуляции нагрузки для силы не найдено.",
+      "risk_and_measurement_limits": "Для гипертрофии нагрузки лишь одно исследование; потеря скорости не равна точному RIR; сопоставимость объёма ограничена.",
+      "funding_and_conflicts": "Декларации отдельно не извлечены.",
+      "application": "Проценты и RIR допустимы с калибровкой; покупка датчика не обязательна.",
+      "unresolved": "Нужны данные с надёжным контролем фактической близости к отказу.",
+      "working_confidence": "Низкая/умеренная.",
+      "review_scope": {
+        "sections_read": [
+          "Inclusion Criteria",
+          "Risk of Bias Assessment",
+          "Statistical Analysis",
+          "Methodological Quality",
+          "Primary Limitations",
+          "Conclusion"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Критический разбор перечисленных разделов, не повторное исследование или аудит всех приложений."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8762534/",
+      "doi": "10.1186/s40798-021-00404-9",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "REST-2024",
+      "question": "Как выбирать отдых без ложного точного оптимума?",
+      "design": "systematic_review_meta_analysis",
+      "population_and_comparison": "Девять исследований; разные длительности отдыха",
+      "methods_reviewed": "9 исследований; SMART-LD; байесовские модели и подгруппы; чаще новички, 5–10 недель.",
+      "main_result": "Оценки слегка в пользу большего отдыха, но интервалы широки.",
+      "risk_and_measurement_limits": "Нет прямых данных для мышц торса; недостаточно тренированных для отдельного анализа.",
+      "funding_and_conflicts": "Прямого финансирования нет; заявлены прежняя связь с Tonal и редакционная роль.",
+      "application": "Не навязывать короткие паузы; 7–10 минут допустимы по предпочтению, превосходство не доказано.",
+      "unresolved": "Каков дополнительный эффект очень длинных пауз?",
+      "working_confidence": "Низкая/умеренная для точного назначения.",
+      "review_scope": {
+        "sections_read": [
+          "Inclusion criteria",
+          "Methodological quality",
+          "Study characteristics",
+          "Controlled effect sizes",
+          "Subanalyses",
+          "Limitations",
+          "Conclusion",
+          "Funding and conflicts"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Критический разбор перечисленных разделов, не повторное исследование или аудит всех приложений."
+      },
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11349676/",
+      "doi": "10.3389/fspor.2024.1429789",
+      "reviewed_at": "2026-11-21",
+      "independent_reanalysis": false
+    }
+  ]
+}

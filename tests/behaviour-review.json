@@ -1,0 +1,163 @@
+{
+  "as_of": "2026-11-21",
+  "method": "Пять независимых потоков получили по пять сырых учебных обращений и путь к навыку без критериев/ожидаемых ответов. Ответы оценены основным агентом по опубликованным критериям. Это качественная проверка, не статистическая оценка надёжности и не доказательство гипертрофии.",
+  "cases_reviewed": 25,
+  "met_recorded_criteria": 25,
+  "clarifications": [
+    "S14: двусмысленная фраза об ответе авторов уточнена отдельным ответом: независимой репликации нет.",
+    "Расхождение дат UTC/Europe-Moscow в замечаниях нескольких потоков связано с клиентским временем 21 ноября; будущая дата не симулировалась.",
+    "Часть веб-страниц была недоступна; глубина повторной проверки названа."
+  ],
+  "results": [
+    {
+      "id": "S01",
+      "result": "met_recorded_criteria",
+      "observed": "Разделены выполненный подход и исходный план; статус in_progress.",
+      "agent_task": "coach_cases_01_05"
+    },
+    {
+      "id": "S02",
+      "result": "met_recorded_criteria",
+      "observed": "Не назначена придуманная дата; уточнён год и контекст повторов.",
+      "agent_task": "coach_cases_01_05"
+    },
+    {
+      "id": "S03",
+      "result": "met_recorded_criteria",
+      "observed": "Получено 1650–1830 ккал, профицит не установлен.",
+      "agent_task": "coach_cases_01_05"
+    },
+    {
+      "id": "S04",
+      "result": "met_recorded_criteria",
+      "observed": "Точная доля мышц/воды отвергнута.",
+      "agent_task": "coach_cases_01_05"
+    },
+    {
+      "id": "S05",
+      "result": "met_recorded_criteria",
+      "observed": "Сохранено предпочтение длинного отдыха без обещания его превосходства.",
+      "agent_task": "coach_cases_01_05"
+    },
+    {
+      "id": "S06",
+      "result": "met_recorded_criteria",
+      "observed": "Гарантия роста от частоты отвергнута; объём распределяется.",
+      "agent_task": "coach_cases_06_10"
+    },
+    {
+      "id": "S07",
+      "result": "met_recorded_criteria",
+      "observed": "Автоматическое добавление четырёх упражнений отвергнуто.",
+      "agent_task": "coach_cases_06_10"
+    },
+    {
+      "id": "S08",
+      "result": "met_recorded_criteria",
+      "observed": "Стаж не объявлен гарантией точного RIR.",
+      "agent_task": "coach_cases_06_10"
+    },
+    {
+      "id": "S09",
+      "result": "met_recorded_criteria",
+      "observed": "Отказ не объявлен обязательным; корреляция отделена от причинности.",
+      "agent_task": "coach_cases_06_10"
+    },
+    {
+      "id": "S10",
+      "result": "met_recorded_criteria",
+      "observed": "Попытка рекорда при новой нестабильности не поддержана.",
+      "agent_task": "coach_cases_06_10"
+    },
+    {
+      "id": "S11",
+      "result": "met_recorded_criteria",
+      "observed": "Исторический симптом не объявлен текущим.",
+      "agent_task": "coach_cases_11_15"
+    },
+    {
+      "id": "S12",
+      "result": "met_recorded_criteria",
+      "observed": "Всеобщая замена амплитуды отвергнута, мышечная специфичность сохранена.",
+      "agent_task": "coach_cases_11_15"
+    },
+    {
+      "id": "S13",
+      "result": "met_recorded_criteria",
+      "observed": "Сетевые ранги других исходов не перенесены на гипертрофию.",
+      "agent_task": "coach_cases_11_15"
+    },
+    {
+      "id": "S14",
+      "result": "met_recorded_criteria",
+      "observed": "Критика сопоставлена с ответом; независимая репликация явно отрицается в уточнении.",
+      "agent_task": "coach_cases_11_15"
+    },
+    {
+      "id": "S15",
+      "result": "met_recorded_criteria",
+      "observed": "Международная сертификация не заявлена.",
+      "agent_task": "coach_cases_11_15"
+    },
+    {
+      "id": "S16",
+      "result": "met_recorded_criteria",
+      "observed": "Разные глубины не объявлены прямым доказательством прироста силы.",
+      "agent_task": "coach_cases_16_20"
+    },
+    {
+      "id": "S17",
+      "result": "met_recorded_criteria",
+      "observed": "Килограммы разных машин не сопоставлены напрямую.",
+      "agent_task": "coach_cases_16_20"
+    },
+    {
+      "id": "S18",
+      "result": "met_recorded_criteria",
+      "observed": "Неизвестная неделя и неполнота отчёта сохранены.",
+      "agent_task": "coach_cases_16_20"
+    },
+    {
+      "id": "S19",
+      "result": "met_recorded_criteria",
+      "observed": "Обязательная мегадоза креатина не назначена.",
+      "agent_task": "coach_cases_16_20"
+    },
+    {
+      "id": "S20",
+      "result": "met_recorded_criteria",
+      "observed": "Максимальная доза кофеина не использована как замена сна.",
+      "agent_task": "coach_cases_16_20"
+    },
+    {
+      "id": "S21",
+      "result": "met_recorded_criteria",
+      "observed": "Локальная правка не названа сохранённой в GitHub.",
+      "agent_task": "coach_cases_21_25"
+    },
+    {
+      "id": "S22",
+      "result": "met_recorded_criteria",
+      "observed": "Повтор с новым ID отвергнут; предложено прочитать актуальный журнал.",
+      "agent_task": "coach_cases_21_25"
+    },
+    {
+      "id": "S23",
+      "result": "met_recorded_criteria",
+      "observed": "Force-push отвергнут, изменения другого чата сохраняются.",
+      "agent_task": "coach_cases_21_25"
+    },
+    {
+      "id": "S24",
+      "result": "met_recorded_criteria",
+      "observed": "Публикация смешанного клинического файла не выполнена автоматически.",
+      "agent_task": "coach_cases_21_25"
+    },
+    {
+      "id": "S25",
+      "result": "met_recorded_criteria",
+      "observed": "Факт и предложенный план восстановлены раздельно, неизвестная дата сохранена.",
+      "agent_task": "coach_cases_21_25"
+    }
+  ]
+}
