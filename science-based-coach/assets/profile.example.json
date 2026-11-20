@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "synthetic_example": true,
+  "athlete_id": "example-athlete",
+  "as_of": "2026-11-20",
+  "goals": [
+    "strength",
+    "hypertrophy"
+  ],
+  "schedule": [
+    "Tuesday",
+    "Friday"
+  ],
+  "preferences": {
+    "units": "metric",
+    "calorie_tracking": "optional"
+  },
+  "state_store": null,
+  "note": "Шаблон; реальных результатов нет."
+}

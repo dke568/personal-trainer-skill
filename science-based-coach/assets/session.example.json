@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "example-only-session",
+  "type": "session",
+  "status": "completed",
+  "date": "2026-11-17",
+  "date_precision": "day",
+  "recorded_at": "2026-11-20",
+  "source": {
+    "kind": "synthetic_example",
+    "note": "Иллюстрация формата; исключается из реальной аналитики."
+  },
+  "exercises": [
+    {
+      "name": "Жим штанги лёжа",
+      "exercise_id": "bench_barbell_flat",
+      "load_basis": "barbell_total",
+      "direct_muscles": [
+        "chest"
+      ],
+      "indirect_muscles": [
+        "triceps",
+        "anterior_delts"
+      ],
+      "sets": [
+        {
+          "kind": "warmup",
+          "load_kg": 20,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "kind": "working",
+          "load_kg": 60,
+          "reps": 6,
+          "rir": 2
+        }
+      ]
+    }
+  ]
+}

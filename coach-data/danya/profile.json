@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "athlete_id": "danya",
+  "as_of": "2026-11-20",
+  "name": "Даня",
+  "age_reported": 24,
+  "height_cm": {
+    "low": 182,
+    "high": 183
+  },
+  "latest_weight_kg": {
+    "value": 85,
+    "approximate": true,
+    "date": "2026-11-20"
+  },
+  "goals": [
+    "Превзойти прежнюю форму при 92 кг по мышечному объёму и эстетике",
+    "Постепенная рекомпозиция без агрессивного дефицита",
+    "Грудь, широчайшие, плечи и руки; прогресс жима и приседа"
+  ],
+  "return_to_regular_training": {
+    "period": "2026-08",
+    "approximate": true,
+    "prior_break_months": 6
+  },
+  "schedule": {
+    "Thursday": [
+      "back",
+      "biceps",
+      "delts",
+      "forearms"
+    ],
+    "Saturday": [
+      "legs"
+    ],
+    "Sunday": [
+      "chest",
+      "delts",
+      "triceps"
+    ]
+  },
+  "preferences": {
+    "language": "ru",
+    "units": "metric",
+    "session_hours": "Обычно 1,5–2 и дольше по желанию",
+    "heavy_rest_minutes": {
+      "low": 7,
+      "high": 10
+    },
+    "calorie_tracking": "Без навязчивого подсчёта",
+    "preserve_existing_program": true,
+    "do_not_use_word": "штука"
+  },
+  "equipment": [
+    "Nike Romaleos 4",
+    "Неопреновые наколенники 7 мм",
+    "Неопреновые налокотники 7 мм",
+    "Кистевые бинты",
+    "Магнезия"
+  ],
+  "nutrition_reported": {
+    "protein_usual_g": 160,
+    "protein_recent_g": 200,
+    "protein_recent_is_approximate": true,
+    "steps_per_day_approx": 9000,
+    "all_macro_calories_count": true
+  },
+  "creatine": {
+    "start_date_reported": "2026-10-21",
+    "grams_per_day_approx": {
+      "low": 5.8,
+      "high": 6
+    },
+    "record_type": "user_context_not_clinical_instruction"
+  },
+  "programme_status": "Существующий сплит; второй жим и 80 кг как основной вес — обсуждённый пробный план, не подтверждённый результат.",
+  "uncertainty": [
+    "Точные даты ноябрьских тренировок с 90×5 и 80×5 неизвестны.",
+    "Не все вспомогательные подходы и недели полностью записаны.",
+    "Полное выполнение четырёх подходов жима ногами не подтверждено.",
+    "Текущие симптомы и лекарства не выводить из исторического состояния."
+  ],
+  "bench_history": {
+    "reported_historical_1rm_kg_approx": 100,
+    "date": null,
+    "source": "user_context",
+    "near_term_goal": {
+      "load_kg": 80,
+      "reps": 8
+    },
+    "status": "historical_report_and_goal_not_current_test"
+  }
+}

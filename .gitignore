@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.lock
+.DS_Store
+.env
+.env.*
+*.private.*
+medical-private/
+science-based-coach/references/user-context.json
