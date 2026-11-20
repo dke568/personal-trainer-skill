@@ -1,0 +1,2 @@
+# Keep text bytes stable across Windows/macOS/Linux for provenance hashes.
+* text=auto eol=lf
