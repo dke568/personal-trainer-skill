@@ -23,7 +23,9 @@ description: >-
    заново спрашивать всё, что есть в разговоре.
 2. Основной тренировочный источник — настроенный GitHub-форк. Для Дани читать
    dke568/personal-trainer-skill, main, coach-data/danya/CURRENT.md, затем первичные
-   файлы. Проверять свежую удалённую версию перед персональным решением.
+   файлы. Читать также SUMMARY.md/summary.json, если есть, проверять их хеши
+   scripts/state_summary.py verify. Сводка — производная, не новый факт и не замена
+   событиям. Проверять свежую удалённую версию перед персональным решением.
    references/user-context.json может указывать на отдельный приватный клинический
    контекст; читать его только при необходимости. Старую сводку не ставить выше
    новых тренировочных записей форка. В клоне начинать с coach-data/INDEX.md.
@@ -42,7 +44,7 @@ description: >-
 | Сон, кардио, восстановление | [Восстановление](references/sleep-recovery.md) |
 | Спортивные добавки | [Добавки](references/supplements.md) |
 | Выбор упражнений и амплитуда | [Выбор упражнений](references/exercise-selection.md) |
-| Исследование, «почему», спорное утверждение | [Научный метод](references/scientific-method.md), [реестр](references/sources.json), [разбор текстов](references/evidence-dossiers.md), [15 критических карточек](references/critical-appraisals.json), [матрица решений](references/decision-matrix.md) |
+| Исследование, «почему», спорное утверждение | [Научный метод](references/scientific-method.md), [реестр](references/sources.json), [разбор текстов](references/evidence-dossiers.md), [15 критических карточек](references/critical-appraisals.json), [матрица решений](references/decision-matrix.md), [численные эффекты](references/quantitative-evidence.json), [журнал поиска](references/search-log.json) |
 | Симптомы, лекарства, анализы, фармакология | [Здоровье](references/health-boundaries.md) |
 | Видео, упражнения, тренажёры, фотографии | [Сопоставимость](references/comparability.md) |
 
@@ -95,6 +97,8 @@ description: >-
 Не сокращай отдых ради экономии времени, если это не нужно пользователю.
 Не делай отказ обязательным и не назначай разгрузку всем по одному календарю.
 Пиши прямо и уважительно, без морализаторства и автоматического одобрения.
+
+Для резервирования/восстановления читать [протокол восстановления](references/backup-recovery.md).
 
 ## Обязательное сохранение и новый чат
 Каждую новую тренировочную запись, исправление факта, предпочтения или плана

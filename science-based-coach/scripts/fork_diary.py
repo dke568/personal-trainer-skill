@@ -8,6 +8,7 @@ from pathlib import PurePosixPath, Path
 import re
 import sys
 from coach_tools import active_events, iso_day, require, validate_event
+from state_summary import build as build_summary
 
 
 def canonical(obj):
@@ -209,13 +210,20 @@ def prepare(snapshot, change):
                + "Статус: " + change["status"] + "; ID: " + change["id"] + ".\n\n"
                + "## Что читать\n[Профиль](profile.json), [план](programme.md), "
                + "[события](events.jsonl), [корректировки](changes.jsonl), "
-               + "[обоснования](decisions.md), [состояние продолжения](checkpoint.json).\n\n"
+               + "[обоснования](decisions.md), [состояние продолжения](checkpoint.json), "
+               + "[сводка последних записей](SUMMARY.md).\n\n"
                + "## Следующий шаг\n" + change["next_step"] + "\n\n"
                + "## Неопределённости\n" + qtext + "\n\n"
                + "План не подтверждает выполнение. Не восстанавливай неизвестные даты. "
                + "Перед новым советом прочитай последнюю удалённую версию.\n")
     output[prefix + "handoff.md"] = handoff
     output[prefix + "CURRENT.md"] = handoff
+    summary_inputs = dict(files)
+    summary_inputs.update(output)
+    summary, summary_md = build_summary({path[len(prefix):]: content for path, content in summary_inputs.items()},
+                                        as_of=change["recorded_at"], source_head=snapshot["head"])
+    output[prefix + "summary.json"] = json.dumps(summary, ensure_ascii=False, indent=2, allow_nan=False) + "\n"
+    output[prefix + "SUMMARY.md"] = summary_md
     entry = {"schema_version": 1, "id": change["id"], "recorded_at": change["recorded_at"],
              "kind": change["kind"], "status": change["status"], "source": source,
              "summary": change["summary"], "reason": change["reason"],

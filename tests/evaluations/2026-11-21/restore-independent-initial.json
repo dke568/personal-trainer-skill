@@ -1,0 +1,333 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/state_summary.py",
+        "verify",
+        "--directory",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/danya"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"verified\", \"as_of\": \"2026-11-21\", \"not_a_new_observation\": true}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/coach_tools.py",
+        "validate",
+        "--log",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/danya/events.jsonl"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"records\": 15,\n  \"active_records\": 15\n}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/fork_diary.py",
+        "prepare",
+        "--snapshot",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/snapshot.json",
+        "--change",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/change.json",
+        "--out",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/prepared.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"schema_version\": 1, \"status\": \"prepared_not_saved\", \"repository_full_name\": \"dke568/personal-trainer-skill\", \"branch\": \"main\", \"expected_head\": \"7fb9ae86c5be00c39c7c36d5963b5ad89f3281dd\", \"base_tree_sha\": \"5a1ded6b7b9edcaba9454d888af3584258e0c1d2\", \"change_id\": \"local-independent-next-entry-2026-11-22\", \"payload_sha256\": \"518a353be30eac055c87cd5aa9782d10e784be3626a57f54316c9d7037a86981\", \"expected_state_blobs\": {\"coach-data/danya/SUMMARY.md\": \"004852612567110a090f3a76ce9fb607e50ce673\", \"coach-data/danya/programme.md\": \"5143496942d11e79fad3b670b3c2b0301a5e070a\", \"coach-data/danya/handoff.md\": \"c8dee362ce0355f98f7e8a268b27a67908d8ca89\", \"coach-data/danya/CURRENT.md\": \"c8dee362ce0355f98f7e8a268b27a67908d8ca89\", \"coach-data/danya/storage.json\": \"88fd57de5dedaea5c6acc01a4e8e482e9a652e4b\", \"coach-data/danya/events.jsonl\": \"8afe43c8c81af2a35d2cec78a70ac48c9ed8683f\", \"coach-data/danya/checkpoint.json\": \"5f629af953e25b6871f67bd63f871ed6a8e67ce4\", \"coach-data/danya/decisions.md\": \"de67db85c56d7a2e8ae1446485fad240008eb735\", \"coach-data/danya/profile.json\": \"6126d606c1fd10595d93c3bd0034927b359b6270\", \"coach-data/danya/summary.json\": \"e866ef2e526ce19f0782ccc2e11d0be7dce0b54c\"}}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/state_summary.py",
+        "verify",
+        "--directory",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/danya"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"verified\", \"as_of\": \"2026-11-22\", \"not_a_new_observation\": true}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/coach_tools.py",
+        "validate",
+        "--log",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/danya/events.jsonl"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"records\": 15,\n  \"active_records\": 15\n}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py",
+        "create",
+        "--directory",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/danya",
+        "--repository",
+        "dke568/personal-trainer-skill",
+        "--source-commit",
+        "7fb9ae86c5be00c39c7c36d5963b5ad89f3281dd",
+        "--created-at",
+        "2026-11-22",
+        "--out",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/backup.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"created_locally_not_uploaded\", \"files\": 11, \"manifest_sha256\": \"d0867443e45f48493e2938afb73c92c9eb50b73a3071a059edd211a46d1ae9b3\"}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py",
+        "check",
+        "--backup",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/backup.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"verified\", \"files\": 11}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py",
+        "restore",
+        "--backup",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/backup.json",
+        "--destination",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/restored"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"restored_to_new_directory\", \"files\": 11, \"source_commit\": \"7fb9ae86c5be00c39c7c36d5963b5ad89f3281dd\"}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/state_summary.py",
+        "verify",
+        "--directory",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/restored"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"verified\", \"as_of\": \"2026-11-22\", \"not_a_new_observation\": true}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/coach_tools.py",
+        "validate",
+        "--log",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/restored/events.jsonl"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"records\": 15,\n  \"active_records\": 15\n}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py",
+        "create",
+        "--directory",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/danya",
+        "--repository",
+        "dke568/personal-trainer-skill",
+        "--source-commit",
+        "7fb9ae86c5be00c39c7c36d5963b5ad89f3281dd",
+        "--created-at",
+        "2026-11-22",
+        "--out",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/backup.json"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "[Errno 17] File exists: '/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/backup.json'\n",
+      "expected_exit_code": 2,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py",
+        "restore",
+        "--backup",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/backup.json",
+        "--destination",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/restored"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "restore destination already exists; never overwrite live state\n",
+      "expected_exit_code": 2,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py",
+        "check",
+        "--backup",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/corrupt.json"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "manifest checksum mismatch\n",
+      "expected_exit_code": 2,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py",
+        "restore",
+        "--backup",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/corrupt.json",
+        "--destination",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/must-not-exist"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "manifest checksum mismatch\n",
+      "expected_exit_code": 2,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/state_summary.py",
+        "verify",
+        "--directory",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/stale"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/state_summary.py\", line 114, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/state_summary.py\", line 109, in main\n    if a.command=='verify':print(json.dumps(verify(files)));return\n                                            ^^^^^^^^^^^^^\n  File \"/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/state_summary.py\", line 101, in verify\n    raise ValueError('stale or altered derived summary; regenerate with the primary state')\nValueError: stale or altered derived summary; regenerate with the primary state\n",
+      "expected_exit_code": 1,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py",
+        "create",
+        "--directory",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/stale",
+        "--repository",
+        "dke568/personal-trainer-skill",
+        "--source-commit",
+        "7fb9ae86c5be00c39c7c36d5963b5ad89f3281dd",
+        "--created-at",
+        "2026-11-22",
+        "--out",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/stale-backup.json"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "state mismatch: programme.md\n",
+      "expected_exit_code": 2,
+      "pass": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py",
+        "check",
+        "--backup",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/invalid-created-at.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"verified\", \"files\": 11}\n",
+      "stderr": "",
+      "expected_exit_code": 2,
+      "pass": false
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py",
+        "check",
+        "--backup",
+        "/workspace/scratch/741ce0121d8c/coach-closeout/independent-check/nonobject-backup.json"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py\", line 102, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py\", line 100, in main\n    print(json.dumps(restore(b,a.destination) if a.command=='restore' else {'status':'verified','files':len(check(b))}))\n                                                                                                            ^^^^^^^^\n  File \"/home/agent/.codex/skills/remote-skills/skill-6b00bb42a4c081919aaed77316d93747/scripts/diary_backup.py\", line 54, in check\n    require(bundle.get('schema_version')==1 and bundle.get('kind')=='training_diary_backup','invalid backup')\n            ^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'get'\n",
+      "expected_exit_code": 2,
+      "pass": false
+    }
+  ],
+  "checks": [
+    {
+      "name": "next record marked prepared_not_saved",
+      "pass": true
+    },
+    {
+      "name": "existing unknown dates retained; no completed sessions invented",
+      "pass": true,
+      "unknown_sessions": 5,
+      "as_of": "2026-11-22"
+    },
+    {
+      "name": "all restored files byte-identical",
+      "pass": true,
+      "files": 11
+    },
+    {
+      "name": "failed restore left no target",
+      "pass": true
+    },
+    {
+      "name": "original diary files unchanged",
+      "pass": true
+    }
+  ],
+  "defects": [
+    {
+      "severity": "low",
+      "script": "diary_backup.py",
+      "issue": "check accepts invalid created_at although create validates ISO date",
+      "reproduction": "Change created_at to not-a-date in a valid backup; recompute manifest_sha256 using canonical(unsigned); check accepts and restore would accept. Not a cryptographic bypass: envelope is intentionally not authenticated.",
+      "evidence_file": "invalid-created-at.json"
+    },
+    {
+      "severity": "low",
+      "script": "diary_backup.py",
+      "issue": "JSON array instead of object crashes with uncaught AttributeError and traceback",
+      "evidence_file": "nonobject-backup.json"
+    }
+  ],
+  "scope": "Local temporary copy only. No remote publication or provenance assertion.",
+  "local_source_head": "7fb9ae86c5be00c39c7c36d5963b5ad89f3281dd",
+  "note": "The prepared state is hypothetical and not committed; source_commit in the backup labels the local base only, not provenance of the modified copy. Backup and restore are local tests only."
+}

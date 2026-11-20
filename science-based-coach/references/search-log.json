@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "scope": "Targeted retrieval to verify already-selected claims, not a systematic discovery search. No retrospective reconstruction of earlier searches.",
+  "searches": [
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "site.pubmed.ncbi.nlm.nih.gov \"Resistance Training Dose Response\" \"67\"",
+      "selected_source_ids": [
+        "VOL-2026"
+      ],
+      "selection_reason": "Locate primary publication and exact numerical result for an existing coaching question; secondary summaries not used as the evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "site.pubmed.ncbi.nlm.nih.gov \"How many times per week\" \"0.07\"",
+      "selected_source_ids": [
+        "FREQUENCY-META-2019"
+      ],
+      "selection_reason": "Locate primary publication and exact numerical result for an existing coaching question; secondary summaries not used as the evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "site.pubmed.ncbi.nlm.nih.gov \"Influence of Resistance Training Proximity-to-Failure\" hypertrophy 2023",
+      "selected_source_ids": [
+        "FAILURE-2023"
+      ],
+      "selection_reason": "Locate primary publication and exact numerical result for an existing coaching question; secondary summaries not used as the evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "\"42841600\" \"-1.4\"",
+      "selected_source_ids": [
+        "PARTIALS-2026"
+      ],
+      "selection_reason": "Locate primary publication and exact numerical result for an existing coaching question; secondary summaries not used as the evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "\"30558493\" \"effect\" \"0.\"",
+      "selected_source_ids": [
+        "FREQUENCY-META-2019"
+      ],
+      "selection_reason": "Locate primary publication and exact numerical result for an existing coaching question; secondary summaries not used as the evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "\"35187864\" \"0.22\" \"0.14\"",
+      "selected_source_ids": [
+        "PROTEIN-2022"
+      ],
+      "selection_reason": "Locate primary publication and exact numerical result for an existing coaching question; secondary summaries not used as the evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "\"10.1080/02640414.2018.1555906\" pdf",
+      "selected_source_ids": [
+        "FREQUENCY-META-2019"
+      ],
+      "selection_reason": "Locate primary publication and exact numerical result for an existing coaching question; secondary summaries not used as the evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "\"How many times per week\" \"effect size\" \"0.03\"",
+      "selected_source_ids": [
+        "FREQUENCY-META-2019"
+      ],
+      "selection_reason": "Locate primary publication and exact numerical result for an existing coaching question; secondary summaries not used as the evidence."
+    },
+    {
+      "date": "2026-11-21",
+      "engine": "web search",
+      "query": "\"10.1007/s40279-025-02344-w\" OSF",
+      "selected_source_ids": [
+        "VOL-2026"
+      ],
+      "selection_reason": "Locate primary publication and exact numerical result for an existing coaching question; secondary summaries not used as the evidence."
+    }
+  ],
+  "direct_reads": [
+    {
+      "source_id": "REST-2024",
+      "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2024.1429789/full",
+      "result": "Publisher full text read."
+    },
+    {
+      "source_id": "CREATINE-HYPERTROPHY-2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10180745/",
+      "result": "PMC full text read."
+    },
+    {
+      "source_id": "PROTEIN-2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8978023/",
+      "result": "Browser captcha; used previously obtained primary XML and checked PubMed abstract."
+    },
+    {
+      "source_id": "VOL-2026",
+      "url": "https://osf.io/6z3xu",
+      "result": "403; no unseen numeric slope or interval extracted."
+    }
+  ],
+  "correction_check": "Earlier audit checked Crossmark for VOL-2026 (current). No claim of exhaustive retraction search for all 50. Protein commentary/reply remain linked in source registry."
+}

@@ -718,11 +718,22 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/30558493/",
       "design": "systematic_review_meta_analysis",
       "population": "25 исследований",
-      "access": "abstract",
+      "access": "full_text_sections",
       "metadata_checked": true,
       "checked_at": "2026-11-21",
       "takeaway": "При уравненном объёме увеличение частоты не показало существенного преимущества гипертрофии.",
-      "limitations": "Определения частоты и объёма различались; дополнять новыми обзорами, не считать точным оптимумом."
+      "limitations": "Определения частоты и объёма различались; дополнять новыми обзорами, не считать точным оптимумом.",
+      "full_text_url": "https://www.researchgate.net/profile/James-Krieger/publication/329737027_How_many_times_per_week_should_a_muscle_be_trained_to_maximize_muscle_hypertrophy_A_systematic_review_and_meta-analysis_of_studies_examining_the_effects_of_resistance_training_frequency/links/66043276390c214cfd14e8ee/How-many-times-per-week-should-a-muscle-be-trained-to-maximize-muscle-hypertrophy-A-systematic-review-and-meta-analysis-of-studies-examining-the-effects-of-resistance-training-frequency.pdf",
+      "review_scope": {
+        "sections_read": [
+          "Meta-analysis of volume-equated studies",
+          "Meta-analysis of volume-equated studies using trained subjects",
+          "Table 2"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны разделы авторской копии статьи с совпадающим DOI; полный аудит не заявляется."
+      }
     },
     {
       "id": "VOLUME-RCT-2019",

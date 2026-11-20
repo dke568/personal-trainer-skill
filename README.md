@@ -135,6 +135,7 @@ python science-based-coach/scripts/coach_tools.py weekly-volume --log coach-data
 python science-based-coach/scripts/coach_tools.py audit-sources --registry science-based-coach/references/sources.json
 python -m unittest discover -s tests -v
 python science-based-coach/scripts/validate_pack.py --scenarios tests/coach-scenarios.json
+python science-based-coach/scripts/state_summary.py verify --directory coach-data/danya
 ~~~
 
 Оценка 1ПМ — расчёт, не измеренный максимум. Недельный счётчик использует
@@ -158,3 +159,14 @@ python science-based-coach/scripts/validate_pack.py --scenarios tests/coach-scen
 
 [Аудит 21 ноября 2026](docs/AUDIT-2026-11-21.md): исправления сохранения,
 ограничения проверки и приоритеты дальнейшего развития.
+
+## Проверяемое продолжение и восстановление
+
+[SUMMARY.md](coach-data/danya/SUMMARY.md) формируется при каждой записи и
+показывает подтверждённые подходы отдельно от неточных дат и планов.
+[Численные эффекты](science-based-coach/references/quantitative-evidence.json)
+содержат восемь извлечений; в шести есть величины и 95% интервалы.
+[Новые полные ответы](tests/evaluations/2026-11-21/responses-and-ratings.json)
+сохранены с версией проверявшихся материалов и критериями.
+[Восстановление](science-based-coach/references/backup-recovery.md) проверяется
+в новом каталоге, без перезаписи действующего дневника.

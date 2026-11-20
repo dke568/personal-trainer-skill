@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-21",
+  "method": "Целевое извлечение из первичных публикаций. Шесть записей с величиной эффекта и 95% интервалом; две записи с явно отсутствующим интервалом/размером эффекта. Не новый метаанализ и не персональный прогноз.",
+  "records": [
+    {
+      "id": "Q01",
+      "source_id": "FREQUENCY-META-2019",
+      "topic": "Частота",
+      "doi": "10.1080/02640414.2018.1555906",
+      "checked_at": "2026-11-21",
+      "document_url": "https://www.researchgate.net/profile/James-Krieger/publication/329737027_How_many_times_per_week_should_a_muscle_be_trained_to_maximize_muscle_hypertrophy_A_systematic_review_and_meta-analysis_of_studies_examining_the_effects_of_resistance_training_frequency/links/66043276390c214cfd14e8ee/How-many-times-per-week-should-a-muscle-be-trained-to-maximize-muscle-hypertrophy-A-systematic-review-and-meta-analysis-of-studies-examining-the-effects-of-resistance-training-frequency.pdf",
+      "access": "full_text_sections",
+      "location": "Results: Meta-analysis of volume-equated studies; Figure 2(a).",
+      "comparison": "Более высокая против низкой частоты при равном объёме",
+      "outcome": "Гипертрофия",
+      "population": "13 исследований, 29 исходов в объединённом сравнении; тренированность различалась.",
+      "duration": "Длительности различались; индивидуальные сроки не извлечены из Table 1.",
+      "effects": [
+        {
+          "estimate": 0.07,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "low": -0.02,
+            "high": 0.17
+          },
+          "unit": "standardized ES difference",
+          "note": ""
+        },
+        {
+          "estimate": 0.07,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "low": -0.06,
+            "high": 0.2
+          },
+          "unit": "standardized ES difference",
+          "note": "Подгруппа тренированных: 10 исследований, 23 исхода."
+        }
+      ],
+      "application": "Второй день может распределять работу и практику; больший рост при равном объёме не обещать.",
+      "limits": "Не испытание именно двух жимов Дани; интервал допускает небольшой эффект, не доказывает равенство.",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "Q02",
+      "source_id": "FAILURE-2023",
+      "topic": "Отказ",
+      "doi": "10.1007/s40279-022-01784-y",
+      "checked_at": "2026-11-21",
+      "document_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9935748/",
+      "access": "full_text_sections",
+      "location": "Abstract Results; subgroup analysis momentary muscular failure vs non-failure.",
+      "comparison": "Моментальный мышечный отказ против неотказной работы",
+      "outcome": "Гипертрофия",
+      "population": "15 исследований во всём обзоре; взрослые с различным опытом.",
+      "duration": "Разные сроки исходных исследований, не единый тренировочный блок.",
+      "effects": [
+        {
+          "estimate": 0.12,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "low": -0.13,
+            "high": 0.37
+          },
+          "unit": "standardized effect size",
+          "note": ""
+        },
+        {
+          "estimate": 0.19,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "low": 0,
+            "high": 0.37
+          },
+          "unit": "standardized effect size",
+          "note": "Все определения set failure вместе; другой набор сравнений."
+        }
+      ],
+      "application": "Не делать каждый подход отказным; конкретный запас калибровать отдельно.",
+      "limits": "Смешанные определения отказа; эти интервалы не устанавливают лучший RIR.",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "Q03",
+      "source_id": "PROTEIN-2022",
+      "topic": "Белок",
+      "doi": "10.1002/jcsm.12922",
+      "checked_at": "2026-11-21",
+      "document_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8978023/",
+      "access": "full_text_sections",
+      "location": "Results: Effect of additional protein intake on lean body mass; Table 2 (RE subgroup).",
+      "comparison": "Дополнительный белок против контроля на фоне силовых",
+      "outcome": "Безжировая масса, не чистая мышечная ткань",
+      "population": "62 исследования с силовыми; здоровые взрослые без ожирения.",
+      "duration": "Разные сроки; протоколы направленного похудения не включались.",
+      "effects": [
+        {
+          "estimate": 0.22,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "low": 0.14,
+            "high": 0.3
+          },
+          "unit": "SMD",
+          "note": ""
+        }
+      ],
+      "application": "Обеспечивать достаточное общее потребление; не обещать дополнительную пользу бесконечного повышения.",
+      "limits": "Не определяет эффект перехода с 160 на 200 г у конкретного атлета. Есть критика и ответ авторов в реестре. В аннотации для другого исхода силы ног точка 0.40 стоит вне CI 0.09–0.35: эту несогласованную цифру не использовать.",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "Q04",
+      "source_id": "CREATINE-HYPERTROPHY-2023",
+      "topic": "Креатин",
+      "doi": "10.3390/nu15092116",
+      "checked_at": "2026-11-21",
+      "document_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10180745/",
+      "access": "full_text_sections",
+      "location": "Results 3.2 and Figure 2: pooled standardized outcomes.",
+      "comparison": "Креатин + силовые против плацебо + силовые",
+      "outcome": "Региональные размеры мышц",
+      "population": "10 исследований, 44 исхода; только два исследования тренированных.",
+      "duration": "7 исследований 6–16 недель; 3 исследования 52 недели.",
+      "effects": [
+        {
+          "estimate": 0.11,
+          "interval": {
+            "level": 0.95,
+            "kind": "credible",
+            "low": -0.02,
+            "high": 0.25
+          },
+          "unit": "standardized effect size",
+          "note": ""
+        }
+      ],
+      "application": "Обсуждать небольшой возможный дополнительный эффект; не делить личные килограммы на воду и мышечный белок по этой оценке.",
+      "limits": "Интервал включает ноль; локальные измерения не эквивалентны составу всей массы тела.",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "Q05",
+      "source_id": "PARTIALS-2026",
+      "topic": "Амплитуда",
+      "doi": "10.1249/mss.0000000000004183",
+      "checked_at": "2026-11-21",
+      "document_url": "https://pubmed.ncbi.nlm.nih.gov/42841600/",
+      "access": "abstract",
+      "location": "Abstract: Experiment 2 Methods and Results.",
+      "comparison": "Растянутая частичная минус полная амплитуда, разные ноги одного участника",
+      "outcome": "MRI VL mCSA: сумма пяти срезов",
+      "population": "16 опытных мужчин в тренировочной части; 8 в отдельной острой части.",
+      "duration": "8 недель, два занятия в неделю.",
+      "effects": [
+        {
+          "estimate": -1.4,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "low": -6.1,
+            "high": 3.8
+          },
+          "unit": "cm² LP−FULL change",
+          "note": ""
+        }
+      ],
+      "application": "Нет основания заменять всю полную амплитуду частичными; учитывать конкретную мышцу и переносимость.",
+      "limits": "Малая разведочная выборка; широкая неопределённость. Только аннотация, не проверка приложений.",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "Q06",
+      "source_id": "REST-2024",
+      "topic": "Отдых",
+      "doi": "10.3389/fspor.2024.1429789",
+      "checked_at": "2026-11-21",
+      "document_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11349676/",
+      "access": "full_text_sections",
+      "location": "Abstract; pairwise controlled binary meta-analysis; Results: Study characteristics.",
+      "comparison": "Длиннее против коротких интервалов в бинарном контролируемом сравнении",
+      "outcome": "Гипертрофия рук и бедра",
+      "population": "9 исследований: 6 с нетренированными, 3 с тренированными; смешанные измерения.",
+      "duration": "5–10 недель.",
+      "effects": [
+        {
+          "estimate": 0.13,
+          "interval": {
+            "level": 0.95,
+            "kind": "credible",
+            "low": -0.27,
+            "high": 0.51
+          },
+          "unit": "controlled standardized ES: arm",
+          "note": ""
+        },
+        {
+          "estimate": 0.17,
+          "interval": {
+            "level": 0.95,
+            "kind": "credible",
+            "low": -0.13,
+            "high": 0.43
+          },
+          "unit": "controlled standardized ES: thigh",
+          "note": ""
+        }
+      ],
+      "application": "Дать достаточно восстановиться для качества работы; предпочтение длинных пауз учитывать.",
+      "limits": "Не вычитать внутригрупповые изменения как межгрупповой эффект; превосходство 7–10 минут эти числа не доказывают.",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "Q07",
+      "source_id": "VOL-2026",
+      "topic": "Недельный объём",
+      "doi": "10.1007/s40279-025-02344-w",
+      "checked_at": "2026-11-21",
+      "document_url": "https://link.springer.com/article/10.1007/s40279-025-02344-w",
+      "access": "abstract",
+      "location": "Publisher Abstract: Methods and Results.",
+      "comparison": "Многоуровневая метарегрессия объёма, прямой/косвенный учёт",
+      "outcome": "Сила и гипертрофия",
+      "population": "67 исследований, 2058 участников, 79.1% мужчин; средний возраст 25.16 года.",
+      "duration": "Разные сроки; модель корректировалась по длительности и тренированности.",
+      "effects": [
+        {
+          "estimate": 1.0,
+          "interval": null,
+          "unit": "posterior probability P(marginal slope > 0)",
+          "note": "Округлённые 100% в аннотации; НЕ величина эффекта и НЕ 100% вероятность пользы каждому."
+        }
+      ],
+      "application": "Различать прямые и косвенные подходы; наращивать объём по ответу, не назначать всем максимум.",
+      "limits": "Размер наклона и его интервал в доступной аннотации не приведены; не вычислялись и не выдумывались. Подписной текст/OSF недоступны; это явно ограниченная количественная запись.",
+      "independent_reanalysis": false
+    },
+    {
+      "id": "Q08",
+      "source_id": "VOLUME-RCT-2019",
+      "topic": "Недельный объём: отдельный РКИ",
+      "doi": "10.1249/mss.0000000000001764",
+      "checked_at": "2026-11-21",
+      "document_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6303131/",
+      "access": "full_text_sections",
+      "location": "Discussion: comparison with Ostrowski; Results muscle thickness; Table 1 представлена изображением.",
+      "comparison": "1 против 5 подходов на упражнение за сессию",
+      "outcome": "Толщина средней части бедра, внутригрупповые изменения",
+      "population": "45 набраны, 34 завершили; мужчины с опытом силовых.",
+      "duration": "8 недель, три занятия в неделю.",
+      "effects": [
+        {
+          "estimate": 3.4,
+          "interval": null,
+          "unit": "percent within-group change, low volume",
+          "note": "Не межгрупповой эффект."
+        },
+        {
+          "estimate": 12.5,
+          "interval": null,
+          "unit": "percent within-group change, high volume",
+          "note": "CI этих процентов в прочитанном абзаце не приведён; не реконструировался."
+        }
+      ],
+      "application": "Объём может влиять на рост; одно короткое исследование не задаёт персональный оптимум.",
+      "limits": "11 выбывших; отдельная мышца и протокол; проценты нельзя интерпретировать как универсальную гарантированную разницу роста.",
+      "independent_reanalysis": false
+    }
+  ]
+}

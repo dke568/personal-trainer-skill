@@ -24,3 +24,4 @@ jobs:
       - run: python science-based-coach/scripts/coach_tools.py validate --log coach-data/danya/events.jsonl
       - run: python science-based-coach/scripts/coach_tools.py audit-sources --registry science-based-coach/references/sources.json
       - run: python science-based-coach/scripts/validate_pack.py --scenarios tests/coach-scenarios.json
+      - run: python science-based-coach/scripts/state_summary.py verify --directory coach-data/danya

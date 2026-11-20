@@ -1,0 +1,1108 @@
+{
+  "schema_version": 1,
+  "athlete_id": "danya",
+  "as_of": "2026-11-21",
+  "source_parent_head": "7fb9ae86c5be00c39c7c36d5963b5ad89f3281dd",
+  "input_sha256": {
+    "profile.json": "266a163af4b98882f6f0f17c7708f137a9b75aa7a1fcadb9ab724932e31b599f",
+    "events.jsonl": "9f5bd49db651aa4539338361076dd3751c7055426ce0815ce3a5a843a9d1f448",
+    "programme.md": "b74188017b528051e0c92860798e9a401bc3558f8638ba8299a5bb41bb4d3120",
+    "checkpoint.json": "8334e4614dfe63636befbb6ed2c23a6affb6c377ea8bb7cdca7b6e1255d824dc"
+  },
+  "not_a_new_observation": true,
+  "movement_views": [
+    {
+      "exercise_id": "squat_barbell_back",
+      "load_basis": "barbell_total",
+      "equipment_id": null,
+      "dated_completed": [
+        {
+          "event_id": "squat-2026-10-17",
+          "date": "2026-10-17",
+          "date_precision": "day",
+          "period": null,
+          "status": "completed",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 4,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 10,
+              "rir": null
+            }
+          ]
+        },
+        {
+          "event_id": "squat-2026-10-24",
+          "date": "2026-10-24",
+          "date_precision": "day",
+          "period": null,
+          "status": "completed",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 7,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 10,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "uncertain": [
+        {
+          "event_id": "legs-november-90x5x2",
+          "date": null,
+          "date_precision": "month",
+          "period": "2026-11",
+          "status": "completed",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 8,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps": 5,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "comparability_verified": false
+    },
+    {
+      "exercise_id": "bench_barbell_flat",
+      "load_basis": "barbell_total",
+      "equipment_id": null,
+      "dated_completed": [],
+      "uncertain": [
+        {
+          "event_id": "bench-october-reported-date",
+          "date": "2026-10-24",
+          "date_precision": "reported_unverified",
+          "period": null,
+          "status": "completed",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 7,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 75,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 75,
+              "reps": 5,
+              "rir": null
+            }
+          ]
+        },
+        {
+          "event_id": "bench-november-80x5",
+          "date": null,
+          "date_precision": "month",
+          "period": "2026-11",
+          "status": "completed",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 75,
+              "reps": 6,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 75,
+              "reps": 6,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 60,
+              "reps": 15,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "comparability_verified": false
+    },
+    {
+      "exercise_id": "romanian_deadlift_barbell",
+      "load_basis": "barbell_total",
+      "equipment_id": null,
+      "dated_completed": [],
+      "uncertain": [
+        {
+          "event_id": "legs-november-90x5x2",
+          "date": null,
+          "date_precision": "month",
+          "period": "2026-11",
+          "status": "completed",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 10,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 10,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 10,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 10,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "comparability_verified": false
+    },
+    {
+      "exercise_id": "leg_press_unknown_machine",
+      "load_basis": "plates_only",
+      "equipment_id": "unknown",
+      "dated_completed": [],
+      "uncertain": [
+        {
+          "event_id": "leg-press-november-in-progress",
+          "date": null,
+          "date_precision": "month",
+          "period": "2026-11",
+          "status": "in_progress",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 100,
+              "reps": 10,
+              "rir": null,
+              "approximate": true
+            }
+          ]
+        }
+      ],
+      "comparability_verified": false
+    },
+    {
+      "exercise_id": "lat_pulldown_machine",
+      "load_basis": "machine_stack_label",
+      "equipment_id": "unknown",
+      "dated_completed": [],
+      "uncertain": [
+        {
+          "event_id": "back-pulldown-recalled",
+          "date": null,
+          "date_precision": "unknown",
+          "period": null,
+          "status": "recalled",
+          "sets": [
+            {
+              "kind": "warmup",
+              "load_kg": 42,
+              "reps": 15,
+              "rir": null,
+              "approximate": true
+            },
+            {
+              "kind": "working",
+              "load_kg": 60,
+              "reps": 10,
+              "rir": null,
+              "approximate": true
+            },
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 10,
+              "rir": null,
+              "approximate": true
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 6,
+              "rir": null,
+              "approximate": true
+            },
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 10,
+              "rir": null,
+              "approximate": true
+            },
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 7,
+              "rir": null,
+              "approximate": true
+            }
+          ]
+        }
+      ],
+      "comparability_verified": false
+    }
+  ],
+  "dated_completed_sessions": [
+    {
+      "id": "squat-2026-10-17",
+      "type": "session",
+      "status": "completed",
+      "date": "2026-10-17",
+      "date_precision": "day",
+      "period": null,
+      "source": {
+        "kind": "user_summary",
+        "note": "Вторая пользовательская сводка: явно перечисленные выполненные подходы за 17 октября."
+      },
+      "exercises": [
+        {
+          "exercise_id": "squat_barbell_back",
+          "name": "Присед со штангой на спине",
+          "load_basis": "barbell_total",
+          "direct_muscles": [
+            "quadriceps",
+            "glutes"
+          ],
+          "indirect_muscles": [],
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 4,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 10,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "comparability": "Same exercise/load basis is insufficient: verify machine, ROM, technique, rest, RIR and equipment."
+    },
+    {
+      "id": "squat-2026-10-24",
+      "type": "session",
+      "status": "completed",
+      "date": "2026-10-24",
+      "date_precision": "day",
+      "period": null,
+      "source": {
+        "kind": "user_summary",
+        "note": "Вторая пользовательская сводка: три выполненных подхода за 24 октября."
+      },
+      "exercises": [
+        {
+          "exercise_id": "squat_barbell_back",
+          "name": "Присед со штангой на спине",
+          "load_basis": "barbell_total",
+          "direct_muscles": [
+            "quadriceps",
+            "glutes"
+          ],
+          "indirect_muscles": [],
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 7,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 10,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "comparability": "Same exercise/load basis is insufficient: verify machine, ROM, technique, rest, RIR and equipment."
+    }
+  ],
+  "sessions_with_uncertain_date_or_completion": [
+    {
+      "id": "bench-october-reported-date",
+      "type": "session",
+      "status": "completed",
+      "date": "2026-10-24",
+      "date_precision": "reported_unverified",
+      "period": null,
+      "source": {
+        "kind": "user_summary",
+        "note": "Дата 24 октября указана в сводке; она приходится на субботу при обычном воскресном жиме. Не исправлять на 25 октября и не использовать как точную дату без подтверждения."
+      },
+      "exercises": [
+        {
+          "exercise_id": "bench_barbell_flat",
+          "name": "Жим штанги лёжа",
+          "load_basis": "barbell_total",
+          "direct_muscles": [
+            "chest"
+          ],
+          "indirect_muscles": [
+            "triceps",
+            "anterior_delts"
+          ],
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 7,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 75,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 75,
+              "reps": 5,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "comparability": "Same exercise/load basis is insufficient: verify machine, ROM, technique, rest, RIR and equipment."
+    },
+    {
+      "id": "legs-november-90x5x2",
+      "type": "session",
+      "status": "completed",
+      "date": null,
+      "date_precision": "month",
+      "period": "2026-11",
+      "source": {
+        "kind": "user_report",
+        "note": "Подтверждено сообщение «Сделал ещё 80 на 8», затем 90×5 и ещё 90×5. Ранее обсуждались восемь повторений, но отдельный отчёт о первом 80×8 в доступном тексте неоднозначен: в выполненный объём включён один подтверждённый 80×8. Точная дата неизвестна. Глубина — со слов пользователя."
+      },
+      "exercises": [
+        {
+          "exercise_id": "squat_barbell_back",
+          "name": "Присед со штангой на спине",
+          "load_basis": "barbell_total",
+          "direct_muscles": [
+            "quadriceps",
+            "glutes"
+          ],
+          "indirect_muscles": [],
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 8,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps": 5,
+              "rir": null
+            }
+          ]
+        },
+        {
+          "exercise_id": "romanian_deadlift_barbell",
+          "name": "Румынская тяга",
+          "load_basis": "barbell_total",
+          "direct_muscles": [
+            "hamstrings",
+            "glutes"
+          ],
+          "indirect_muscles": [
+            "spinal_erectors"
+          ],
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 10,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 10,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 10,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 10,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "comparability": "Same exercise/load basis is insufficient: verify machine, ROM, technique, rest, RIR and equipment."
+    },
+    {
+      "id": "leg-press-november-in-progress",
+      "type": "session",
+      "status": "in_progress",
+      "date": null,
+      "date_precision": "month",
+      "period": "2026-11",
+      "source": {
+        "kind": "user_report",
+        "note": "«Сейчас делаю ... 100 на 10 примерно (не учитывая платформу)». Сначала намеревался сделать три, затем четыре подхода. Все четыре не подтверждены."
+      },
+      "exercises": [
+        {
+          "exercise_id": "leg_press_unknown_machine",
+          "name": "Жим ногами",
+          "load_basis": "plates_only",
+          "direct_muscles": [
+            "quadriceps",
+            "glutes"
+          ],
+          "indirect_muscles": [],
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 100,
+              "reps": 10,
+              "rir": null,
+              "approximate": true
+            }
+          ],
+          "equipment_id": "unknown"
+        }
+      ],
+      "comparability": "Same exercise/load basis is insufficient: verify machine, ROM, technique, rest, RIR and equipment."
+    },
+    {
+      "id": "bench-november-80x5",
+      "type": "session",
+      "status": "completed",
+      "date": null,
+      "date_precision": "month",
+      "period": "2026-11",
+      "source": {
+        "kind": "user_report",
+        "note": "Подтверждены 75×6 дважды, затем 80×5 и 60×15. Точная дата отсутствует. Фраза о запасе в голосовом вводе неоднозначна; RIR оставлен неизвестным."
+      },
+      "exercises": [
+        {
+          "exercise_id": "bench_barbell_flat",
+          "name": "Жим штанги лёжа",
+          "load_basis": "barbell_total",
+          "direct_muscles": [
+            "chest"
+          ],
+          "indirect_muscles": [
+            "triceps",
+            "anterior_delts"
+          ],
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 75,
+              "reps": 6,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 75,
+              "reps": 6,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 60,
+              "reps": 15,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "comparability": "Same exercise/load basis is insufficient: verify machine, ROM, technique, rest, RIR and equipment."
+    },
+    {
+      "id": "back-pulldown-recalled",
+      "type": "session",
+      "status": "recalled",
+      "date": null,
+      "date_precision": "unknown",
+      "period": null,
+      "source": {
+        "kind": "user_summary",
+        "note": "В первой сводке последовательность вертикальной тяги восстановлена по памяти и названа приблизительной."
+      },
+      "exercises": [
+        {
+          "exercise_id": "lat_pulldown_machine",
+          "name": "Вертикальная тяга",
+          "load_basis": "machine_stack_label",
+          "direct_muscles": [
+            "lats"
+          ],
+          "indirect_muscles": [
+            "biceps"
+          ],
+          "sets": [
+            {
+              "kind": "warmup",
+              "load_kg": 42,
+              "reps": 15,
+              "rir": null,
+              "approximate": true
+            },
+            {
+              "kind": "working",
+              "load_kg": 60,
+              "reps": 10,
+              "rir": null,
+              "approximate": true
+            },
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 10,
+              "rir": null,
+              "approximate": true
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps": 6,
+              "rir": null,
+              "approximate": true
+            },
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 10,
+              "rir": null,
+              "approximate": true
+            },
+            {
+              "kind": "working",
+              "load_kg": 70,
+              "reps": 7,
+              "rir": null,
+              "approximate": true
+            }
+          ],
+          "equipment_id": "unknown"
+        }
+      ],
+      "comparability": "Same exercise/load basis is insufficient: verify machine, ROM, technique, rest, RIR and equipment."
+    }
+  ],
+  "active_plans_not_performed": [
+    {
+      "id": "plan-bench-thursday-trial",
+      "type": "plan",
+      "status": "planned",
+      "date": null,
+      "date_precision": "unknown",
+      "period": null,
+      "source": {
+        "kind": "assistant_proposal",
+        "note": "Обсуждён пробный второй день жима; пользователь ответил, что понял. Выполнение не подтверждено."
+      },
+      "exercises": [
+        {
+          "exercise_id": "bench_barbell_flat",
+          "name": "Жим штанги лёжа",
+          "load_basis": "barbell_total",
+          "direct_muscles": [
+            "chest"
+          ],
+          "indirect_muscles": [
+            "triceps",
+            "anterior_delts"
+          ],
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 65,
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "kind": "working",
+              "load_kg": 65,
+              "reps": 8,
+              "rir": 3
+            }
+          ]
+        }
+      ],
+      "performed": false
+    },
+    {
+      "id": "plan-bench-sunday-80-main",
+      "type": "plan",
+      "status": "adjusted",
+      "date": null,
+      "date_precision": "unknown",
+      "period": null,
+      "source": {
+        "kind": "assistant_proposal",
+        "note": "Последнее предложение по запросу сделать 80 кг основным рабочим весом. Ещё не выполнено."
+      },
+      "exercises": [
+        {
+          "exercise_id": "bench_barbell_flat",
+          "name": "Жим штанги лёжа",
+          "load_basis": "barbell_total",
+          "direct_muscles": [
+            "chest"
+          ],
+          "indirect_muscles": [
+            "triceps",
+            "anterior_delts"
+          ],
+          "sets": [
+            {
+              "kind": "warmup",
+              "load_kg": 20,
+              "reps_min": 12,
+              "reps_max": 15,
+              "rir": null
+            },
+            {
+              "kind": "warmup",
+              "load_kg": 40,
+              "reps_min": 5,
+              "reps_max": 6,
+              "rir": null
+            },
+            {
+              "kind": "warmup",
+              "load_kg": 60,
+              "reps": 3,
+              "rir": null
+            },
+            {
+              "kind": "warmup",
+              "load_kg": 70,
+              "reps_min": 1,
+              "reps_max": 2,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps_min": 4,
+              "reps_max": 6,
+              "rir": 1
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps_min": 4,
+              "reps_max": 6,
+              "rir": 1
+            },
+            {
+              "kind": "working",
+              "load_kg": 80,
+              "reps_min": 4,
+              "reps_max": 6,
+              "rir": 1
+            }
+          ]
+        }
+      ],
+      "performed": false
+    }
+  ],
+  "measurements": [
+    {
+      "id": "weight-august-return",
+      "type": "measurement",
+      "status": "recalled",
+      "date": null,
+      "date_precision": "month",
+      "period": "2026-08",
+      "source": {
+        "kind": "user_report",
+        "note": "Сообщение о прибавке примерно 6 кг за три месяца: в начале возвращения весил около 79 кг. Точная дата и условия неизвестны."
+      },
+      "measurements": [
+        {
+          "metric": "body_weight",
+          "value": 79,
+          "unit": "kg",
+          "approximate": true
+        }
+      ]
+    },
+    {
+      "id": "body-2026-10-22",
+      "type": "measurement",
+      "status": "completed",
+      "date": "2026-10-22",
+      "date_precision": "day",
+      "period": null,
+      "source": {
+        "kind": "user_summary",
+        "note": "Первая пользовательская сводка: контрольные измерения 22 октября; не считать окружность плеч шириной, живот — бёдрами."
+      },
+      "measurements": [
+        {
+          "metric": "body_weight",
+          "value": 81.65,
+          "unit": "kg",
+          "approximate": true
+        },
+        {
+          "metric": "waist_narrowest",
+          "value": 83,
+          "unit": "cm"
+        },
+        {
+          "metric": "abdomen_navel",
+          "value": 92,
+          "unit": "cm"
+        },
+        {
+          "metric": "chest_axillary",
+          "value": 109,
+          "unit": "cm"
+        },
+        {
+          "metric": "shoulder_girth",
+          "value": 119,
+          "unit": "cm"
+        },
+        {
+          "metric": "upper_arm_girth",
+          "value": 38,
+          "unit": "cm",
+          "conditions": "Поза/напряжение не уточнены"
+        },
+        {
+          "metric": "thigh_upper",
+          "value": 59,
+          "unit": "cm"
+        },
+        {
+          "metric": "thigh_mid",
+          "value": 53,
+          "unit": "cm"
+        }
+      ]
+    },
+    {
+      "id": "body-2026-11-05",
+      "type": "measurement",
+      "status": "completed",
+      "date": "2026-11-05",
+      "date_precision": "day",
+      "period": null,
+      "source": {
+        "kind": "user_report",
+        "note": "Пользователь поправил дату с 4 на 5 ноября. Вес после душа, питья и посещения туалета; живот описан диапазонами."
+      },
+      "measurements": [
+        {
+          "metric": "body_weight",
+          "value": 83.8,
+          "unit": "kg",
+          "conditions": "После питья, душа и туалета; не стандартизировано"
+        },
+        {
+          "metric": "waist_narrowest",
+          "low": 83,
+          "high": 84,
+          "unit": "cm",
+          "approximate": true
+        },
+        {
+          "metric": "abdomen_navel",
+          "low": 92,
+          "high": 93,
+          "unit": "cm",
+          "approximate": true
+        }
+      ]
+    },
+    {
+      "id": "weight-2026-11-20",
+      "type": "measurement",
+      "status": "completed",
+      "date": "2026-11-20",
+      "date_precision": "day",
+      "period": null,
+      "source": {
+        "kind": "user_report",
+        "note": "«85 примерно» при сравнении фотографий 20 ноября. Условия взвешивания неизвестны."
+      },
+      "measurements": [
+        {
+          "metric": "body_weight",
+          "value": 85,
+          "unit": "kg",
+          "approximate": true
+        }
+      ]
+    }
+  ],
+  "rolling_seven_day_windows": [
+    {
+      "start": "2026-11-08",
+      "end": "2026-11-14",
+      "scope": "known reported working sets; not automatically hard sets",
+      "coverage": "unknown",
+      "is_known_minimum_only": true,
+      "indirect_coefficient": 0.5,
+      "working_sets": 0,
+      "working_sets_with_rir": 0,
+      "unclassified_working_sets": 0,
+      "muscles": {},
+      "records_used": [],
+      "records_excluded": [
+        {
+          "id": "weight-august-return",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "body-2026-10-22",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "bench-october-reported-date",
+          "reason": "unknown or unverified exact date"
+        },
+        {
+          "id": "deload-back-2026-10-29",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "body-2026-11-05",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-november-90x5x2",
+          "reason": "unknown or unverified exact date"
+        },
+        {
+          "id": "leg-press-november-in-progress",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "bench-november-80x5",
+          "reason": "unknown or unverified exact date"
+        },
+        {
+          "id": "back-pulldown-recalled",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "weight-2026-11-20",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "plan-bench-thursday-trial",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "plan-bench-sunday-80-main",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "policy-immediate-fork-diary-2026-11-21",
+          "reason": "not a confirmed completed session"
+        }
+      ]
+    },
+    {
+      "start": "2026-11-15",
+      "end": "2026-11-21",
+      "scope": "known reported working sets; not automatically hard sets",
+      "coverage": "unknown",
+      "is_known_minimum_only": true,
+      "indirect_coefficient": 0.5,
+      "working_sets": 0,
+      "working_sets_with_rir": 0,
+      "unclassified_working_sets": 0,
+      "muscles": {},
+      "records_used": [],
+      "records_excluded": [
+        {
+          "id": "weight-august-return",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "body-2026-10-22",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "bench-october-reported-date",
+          "reason": "unknown or unverified exact date"
+        },
+        {
+          "id": "deload-back-2026-10-29",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "body-2026-11-05",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-november-90x5x2",
+          "reason": "unknown or unverified exact date"
+        },
+        {
+          "id": "leg-press-november-in-progress",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "bench-november-80x5",
+          "reason": "unknown or unverified exact date"
+        },
+        {
+          "id": "back-pulldown-recalled",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "weight-2026-11-20",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "plan-bench-thursday-trial",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "plan-bench-sunday-80-main",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "policy-immediate-fork-diary-2026-11-21",
+          "reason": "not a confirmed completed session"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Точные даты ноябрьских приседов 90×5 дважды и жима 80×5 неизвестны.",
+    "Полный свежий объём вспомогательных упражнений не подтверждён.",
+    "Новых замеров или выполненных тренировок этим изменением не добавлено."
+  ],
+  "next_step": "Продолжить действующий сплит с последних подтверждённых результатов. В следующей тренировке жима оценить первый фактический подход; 80 кг 3×4–6 пока предложенный план, а не выполненная работа.",
+  "limits": [
+    "Unknown date is not chronological evidence.",
+    "Incomplete coverage: zero recorded sets does not mean zero training.",
+    "A derived summary never replaces primary events or updates old measurement dates."
+  ]
+}
