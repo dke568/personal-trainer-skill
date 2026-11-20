@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-20",
-  "method": "Отобранный рабочий реестр. Библиография сверена по Europe PMC/PubMed и первичным страницам. Аннотации прочитаны; независимый аудит всех полных текстов не проводился.",
+  "as_of": "2026-11-21",
+  "method": "Отобранный рабочий реестр, не систематический обзор всей области. Библиография и аннотации проверены. Для 7 источников разобраны явно перечисленные разделы полного текста; для одного дополнительно прочитана критика и ответ 2025. Самостоятельный пересчёт и независимая оценка всех РКИ не проводились. Учебные программы хранятся отдельно и не считаются испытаниями эффективности.",
   "sources": [
     {
       "id": "ACSM-2026",
@@ -14,11 +14,23 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/",
       "design": "overview_of_reviews",
       "population": "Здоровые взрослые; обзор обзоров",
-      "access": "abstract",
+      "access": "full_text_sections",
       "metadata_checked": true,
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-21",
       "takeaway": "Прогрессивные силовые тренировки эффективны; выбор параметров зависит от исхода.",
-      "limitations": "Общие рекомендации не определяют индивидуальный оптимум; поиск исходных обзоров завершён в 2024 году."
+      "limitations": "Общие рекомендации не определяют индивидуальный оптимум; поиск исходных обзоров завершён в 2024 году.",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/",
+      "review_scope": {
+        "sections_read": [
+          "Information Sources and Search Strategy",
+          "Methodological Quality Assessment and Evidence Synthesis",
+          "Overlap of Papers",
+          "Hypertrophy"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      }
     },
     {
       "id": "CITRULLINE-2026",
@@ -342,6 +354,277 @@
       "checked_at": "2026-11-20",
       "takeaway": "Результат зависел от конкретного протокола специфической разминки.",
       "limitations": "Не сравнивались все возможные лестницы весов; нельзя объявлять один промежуточный вес обязательным."
+    },
+    {
+      "id": "RX-2023",
+      "pmid": "37414459",
+      "doi": "10.1136/bjsports-2023-106807",
+      "title": "Resistance training prescription for muscle strength and hypertrophy in healthy adults: a systematic review and Bayesian network meta-analysis.",
+      "authors": "Currier BS, Mcleod JC, Banfield L, Beyene J, Welton NJ, D'Souza AC, Keogh JAJ, Lin L, Coletta G, Yang A, Colenso-Semple L, Lau KJ, Verboom A, Phillips SM.",
+      "year": 2023,
+      "first_publication_date": "2023-07-06",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37414459/",
+      "design": "systematic_review_network_meta_analysis",
+      "population": "178 исследований силы; 119 гипертрофии; здоровые взрослые",
+      "access": "full_text_sections",
+      "metadata_checked": true,
+      "checked_at": "2026-11-21",
+      "takeaway": "Разные схемы работают; тяжёлые нагрузки полезнее для специфической силы, несколько подходов — разумная основа гипертрофии.",
+      "limitations": "Рейтинги сетевого анализа не устанавливают личный оптимум; большинство сравнений схем имеет широкую неопределённость, риск ошибок часто умеренный/высокий.",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10579494/",
+      "review_scope": {
+        "sections_read": [
+          "Risk of bias (methods and results)",
+          "Comparing RTxs",
+          "Limitations",
+          "Conclusion",
+          "Footnotes: funding and competing interests"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      }
+    },
+    {
+      "id": "LENGTH-2026",
+      "pmid": "41777276",
+      "doi": "10.1055/a-2733-7605",
+      "title": "The interplay between muscle length, range of motion, and exercise selection: a review.",
+      "authors": "Pedrosa GF, Pereira MR, Kassiano W.",
+      "year": 2026,
+      "first_publication_date": "2026-02-17",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41777276/",
+      "design": "narrative_review",
+      "population": "Преимущественно нетренированные; короткие вмешательства 5–15 недель",
+      "access": "full_text_sections",
+      "metadata_checked": true,
+      "checked_at": "2026-11-21",
+      "takeaway": "Рассматривать совместно длину мышцы, амплитуду и внешний момент силы.",
+      "limitations": "Несистематический обзор и концептуальная модель; не доказывает обязательность максимальной растяжки. Прямых данных для груди/широчайших мало.",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12951042/",
+      "review_scope": {
+        "sections_read": [
+          "Experimental approach to the problem",
+          "Gaps, limitations, and research recommendations",
+          "Conclusions",
+          "Practical considerations",
+          "Conflict of Interest"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      }
+    },
+    {
+      "id": "LENGTH-META-2025",
+      "pmid": "40570881",
+      "doi": "10.1055/a-2615-4935",
+      "title": "Does Muscle Length Influence Regional Hypertrophy? A Systematic Review and Meta-Analysis.",
+      "authors": "Varovic D, Wolf M, Schoenfeld BJ, Steele J, Grgic J, Mikulic P.",
+      "year": 2025,
+      "first_publication_date": "2025-06-26",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40570881/",
+      "design": "systematic_review_meta_analysis",
+      "population": "12 исследований у молодых взрослых",
+      "access": "abstract",
+      "metadata_checked": true,
+      "checked_at": "2026-11-21",
+      "takeaway": "В рассмотренных сравнениях региональные различия невелики; универсальное превосходство длинных положений не установлено.",
+      "limitations": "Небольшие различия средних длин между условиями; результаты не опровергают все исследования амплитуды, не переносятся автоматически на каждую мышцу."
+    },
+    {
+      "id": "ROM-2023",
+      "pmid": "36662126",
+      "doi": "10.1519/jsc.0000000000004415",
+      "title": "Which ROMs Lead to Rome? A Systematic Review of the Effects of Range of Motion on Muscle Hypertrophy.",
+      "authors": "Kassiano W, Costa B, Nunes JP, Ribeiro AS, Schoenfeld BJ, Cyrino ES.",
+      "year": 2023,
+      "first_publication_date": "2023-01-18",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36662126/",
+      "design": "systematic_review",
+      "population": "11 исследований; различные мышцы и участки",
+      "access": "abstract",
+      "metadata_checked": true,
+      "checked_at": "2026-11-21",
+      "takeaway": "Полная и отдельные частичные амплитуды дают мышечно-специфические результаты.",
+      "limitations": "Разнородные упражнения и измерения; исходный поиск до апреля 2022. Не универсальный рейтинг глубины приседа."
+    },
+    {
+      "id": "PERIOD-2022",
+      "pmid": "35044672",
+      "doi": "10.1007/s40279-021-01636-1",
+      "title": "Effects of Periodization on Strength and Muscle Hypertrophy in Volume-Equated Resistance Training Programs: A Systematic Review and Meta-analysis.",
+      "authors": "Moesgaard L, Beck MM, Christiansen L, Aagaard P, Lundbye-Jensen J.",
+      "year": 2022,
+      "first_publication_date": "2022-01-19",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35044672/",
+      "design": "systematic_review_meta_analysis",
+      "population": "35 исследований с уравненным объёмом",
+      "access": "abstract",
+      "metadata_checked": true,
+      "checked_at": "2026-11-21",
+      "takeaway": "Периодизация может помогать 1ПМ; ясное преимущество для гипертрофии не показано.",
+      "limitations": "Небольшие и разнородные сравнения; подгруппы по опыту не доказывают лучший цикл для конкретного атлета."
+    },
+    {
+      "id": "ORDER-2021",
+      "pmid": "32077380",
+      "doi": "10.1080/17461391.2020.1733672",
+      "title": "What influence does resistance exercise order have on muscular strength gains and muscle hypertrophy? A systematic review and meta-analysis.",
+      "authors": "Nunes JP, Grgic J, Cunha PM, Ribeiro AS, Schoenfeld BJ, de Salles BF, Cyrino ES.",
+      "year": 2021,
+      "first_publication_date": "2020-02-28",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32077380/",
+      "design": "systematic_review_meta_analysis",
+      "population": "11 исследований",
+      "access": "abstract",
+      "metadata_checked": true,
+      "checked_at": "2026-11-21",
+      "takeaway": "Приоритетное для силы движение разумно ставить раньше; убедительного универсального преимущества порядка для роста не найдено.",
+      "limitations": "Малое число исследований гипертрофии и разные исходы; онлайн-публикация 2020, выпуск 2021."
+    },
+    {
+      "id": "CONCURRENT-2022",
+      "pmid": "34757594",
+      "doi": "10.1007/s40279-021-01587-7",
+      "title": "Compatibility of Concurrent Aerobic and Strength Training for Skeletal Muscle Size and Function: An Updated Systematic Review and Meta-Analysis.",
+      "authors": "Schumann M, Feuerbacher JF, Sünkeler M, Freitag N, Rønnestad BR, Doma K, Lundberg TR.",
+      "year": 2022,
+      "first_publication_date": "2021-11-10",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34757594/",
+      "design": "systematic_review_meta_analysis",
+      "population": "43 исследования; 15 сравнений гипертрофии",
+      "access": "full_text_sections",
+      "metadata_checked": true,
+      "checked_at": "2026-11-21",
+      "takeaway": "В исследованных условиях сочетание кардио и силовых не показало среднего ухудшения гипертрофии/максимальной силы; взрывная сила чувствительнее.",
+      "limitations": "Это не разрешение на любой объём кардио; среднее качество по PEDro умеренное, локальные/сегментарные измерения неодинаковы.",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8891239/",
+      "review_scope": {
+        "sections_read": [
+          "Eligibility Criteria",
+          "Assessment of Methodological Quality",
+          "Muscle Hypertrophy",
+          "Conclusion",
+          "Funding",
+          "Conflict of interest"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      }
+    },
+    {
+      "id": "FAILURE-2023",
+      "pmid": "36334240",
+      "doi": "10.1007/s40279-022-01784-y",
+      "title": "Influence of Resistance Training Proximity-to-Failure on Skeletal Muscle Hypertrophy: A Systematic Review with Meta-analysis.",
+      "authors": "Refalo MC, Helms ER, Trexler ET, Hamilton DL, Fyfe JJ.",
+      "year": 2023,
+      "first_publication_date": "2022-11-05",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36334240/",
+      "design": "systematic_review_meta_analysis",
+      "population": "15 исследований; здоровые взрослые",
+      "access": "full_text_sections",
+      "metadata_checked": true,
+      "checked_at": "2026-11-21",
+      "takeaway": "Абсолютный отказ не установлен обязательным; близость к отказу нельзя свести к бинарной метке.",
+      "limitations": "Разные определения отказа и неточная фактическая дистанция; чувствительность к предположению о корреляции; не доказывает конкретное оптимальное RIR.",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9935748/",
+      "review_scope": {
+        "sections_read": [
+          "Inclusion Criteria",
+          "Methodological Quality Assessment",
+          "Methodological Quality",
+          "Limitations",
+          "Conclusions",
+          "Funding",
+          "Conflict of interest"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      }
+    },
+    {
+      "id": "PROTEIN-2022",
+      "pmid": "35187864",
+      "doi": "10.1002/jcsm.12922",
+      "title": "Systematic review and meta-analysis of protein intake to support muscle mass and function in healthy adults.",
+      "authors": "Nunes EA, Colenso-Semple L, McKellar SR, Yau T, Ali MU, Fitzpatrick-Lewis D, Sherifali D, Gaudichon C, Tomé D, Atherton PJ, Robles MC, Naranjo-Modad S, Braun M, Landi F, Phillips SM.",
+      "year": 2022,
+      "first_publication_date": "2022-02-20",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35187864/",
+      "design": "systematic_review_meta_analysis",
+      "population": "74 РКИ; здоровые взрослые без ожирения; без целевого похудения",
+      "access": "full_text_sections",
+      "metadata_checked": true,
+      "checked_at": "2026-11-21",
+      "takeaway": "Дополнительный белок на фоне силовых даёт небольшую среднюю прибавку безжировой массы; не обещает пользу бесконечного увеличения.",
+      "limitations": "Не определяет персональный потолок; изучались не условия дефицита. Есть отраслевое финансирование/связи и дискуссия 2025: читать критику вместе с ответом.",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8978023/",
+      "review_scope": {
+        "sections_read": [
+          "Eligibility criteria",
+          "Risk of bias, heterogeneity, quality of the evidence, and sensitivity analysis",
+          "Meta-analysis and meta-regression",
+          "Funding",
+          "Conflict of interest"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      },
+      "related_correspondence": [
+        {
+          "pmid": "40716105",
+          "doi": "10.1002/jcsm.70036",
+          "title": "Comment on \"Systematic Review and Meta-Analysis of Protein Intake to Support Muscle Mass and Function in Healthy Adults\" by Nunes et al.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12677926/",
+          "access": "full_text_main_body",
+          "checked_at": "2026-11-21"
+        },
+        {
+          "pmid": "41126611",
+          "doi": "10.1002/jcsm.70108",
+          "title": "Comment on 'Systematic Review and Meta-Analysis of Protein Intake to Support Muscle Mass and Function in Healthy Adults' by Nunes et al.-The Authors' Reply.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12547074/",
+          "access": "full_text_main_body",
+          "checked_at": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "ADVANCED-2026",
+      "pmid": "41951916",
+      "doi": "10.1007/s40279-026-02428-1",
+      "title": "The Effects of Advanced Resistance Training Prescription Methods on Strength, Power, Hypertrophy, and Performance Adaptations in Healthy Adults: A Systematic Review and Bayesian Network Meta-analysis.",
+      "authors": "Cowley N, Nicholson V, Timmins R, Munteanu G, Weakley J.",
+      "year": 2026,
+      "first_publication_date": "2026-04-08",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41951916/",
+      "design": "systematic_review_network_meta_analysis",
+      "population": "Здоровые, преимущественно нетренированные/умеренно тренированные; средний сообщённый стаж 1,9 года",
+      "access": "full_text_sections",
+      "metadata_checked": true,
+      "checked_at": "2026-11-21",
+      "takeaway": "Сложные методы не показали последовательного превосходства; выбирать по задаче и переносимости.",
+      "limitations": "Для гипертрофии не выполнен сетевой метаанализ: только систематический разбор 17 исследований. Ранги силы/мощности не равны доказанному превосходству; риск ошибок от некоторых опасений до высокого.",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13457283/",
+      "review_scope": {
+        "sections_read": [
+          "Assessment of Reporting Quality",
+          "Research Reporting Quality",
+          "Hypertrophy",
+          "Limitations",
+          "Conclusion",
+          "Funding",
+          "Conflict of interest"
+        ],
+        "supplementary_files_reanalysed": false,
+        "independent_risk_of_bias_scoring": false,
+        "note": "Прочитаны указанные разделы полного текста; это не проверка каждого включённого исследования или пересчёт метаанализа."
+      }
     }
   ]
 }

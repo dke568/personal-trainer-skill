@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-21",
+  "purpose": "Открытые планы компетенций для структуры работы тренера, не научные испытания эффективности и не подтверждение прохождения курса.",
+  "sources": [
+    {
+      "id": "EDU-ACSM-CPT-2025",
+      "provider": "American College of Sports Medicine",
+      "programme": "ACSM Certified Personal Trainer",
+      "document": "Exam Content Outline",
+      "effective_date": "2025-07-10",
+      "url": "https://acsm.org/wp-content/uploads/2024/12/ACSM-Certified-Personal-Trainer-Exam-Content-Outline.pdf",
+      "official_course_page": "https://acsm.org/certification/get-certified/personal-trainer/",
+      "access": "public_outline_sections",
+      "checked_at": "2026-11-21",
+      "competencies": [
+        "Initial consultation and assessment",
+        "Exercise programming and implementation",
+        "Leadership, education and engagement",
+        "Professional responsibilities"
+      ],
+      "use": "Оценка исходных данных, обучение, отслеживание ответа и границы компетенции.",
+      "limits": "Открытый план экзамена, не полный платный курс; не переносить примеры противопоказаний без контекста в универсальные запреты."
+    },
+    {
+      "id": "EDU-NSCA-CPT-2025",
+      "provider": "National Strength and Conditioning Association",
+      "programme": "NSCA Certified Personal Trainer",
+      "document": "Job Task Analysis Summary and Detailed Content Outline",
+      "effective_date": "2025-07-01",
+      "url": "https://www.nsca.com/globalassets/certification/certification-pdfs/nsca-certified-personal-trainer-job-task-analysis-summary-2025/",
+      "official_course_page": "https://www.nsca.com/certification/nsca-cpt/nsca-cpt-exam-description/",
+      "access": "public_outline_sections",
+      "checked_at": "2026-11-21",
+      "competencies": [
+        "Client consultation and assessment",
+        "Program planning",
+        "Program execution",
+        "Safety and professional practice"
+      ],
+      "use": "Согласование целей, выбор показателей, инструктаж и пересмотр программы.",
+      "limits": "Даты в пояснительном тексте PDF имеют редакционную несогласованность; дата здесь взята из заголовка вступления в силу. Не использовать запись для экзаменационной/юридической консультации."
+    },
+    {
+      "id": "EDU-NSCA-CSCS-2025",
+      "provider": "National Strength and Conditioning Association",
+      "programme": "Certified Strength and Conditioning Specialist",
+      "document": "Job Task Analysis Summary and Detailed Content Outline",
+      "effective_date": "2025-07-01",
+      "url": "https://www.nsca.com/globalassets/certification/certification-pdfs/certified-strength-and-conditioning-specialist-job-task-analysis-summary-2025.pdf",
+      "official_course_page": "https://www.nsca.com/certification/cscs/exam-preparation/",
+      "access": "public_outline_sections",
+      "checked_at": "2026-11-21",
+      "competencies": [
+        "Exercise science, biomechanics and research methods",
+        "Sport psychology and nutrition",
+        "Program design",
+        "Technique and program implementation",
+        "Testing and monitoring",
+        "Organization and administration"
+      ],
+      "use": "Связь цели, биомеханики, дозы, техники и измеримого результата.",
+      "limits": "Спортивная подготовка шире любительской гипертрофии: не добавлять спринты, прыжки и сложную периодизацию только ради покрытия плана."
+    }
+  ],
+  "access_boundary": "Платные учебники, видеокурсы, экзаменационные банки и закрытые материалы не получены и не скопированы. Сертификат не получен; аффилиации с организациями нет."
+}
