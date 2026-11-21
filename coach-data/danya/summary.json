@@ -2,12 +2,12 @@
   "schema_version": 2,
   "athlete_id": "danya",
   "as_of": "2026-11-21",
-  "source_parent_head": "64777f37be7d5bf3b2380c0ec49e97fbe19b671b",
+  "source_parent_head": "f2a417283ab30722d3b02a34bea0335318134848",
   "input_sha256": {
     "profile.json": "266a163af4b98882f6f0f17c7708f137a9b75aa7a1fcadb9ab724932e31b599f",
-    "events.jsonl": "9f5bd49db651aa4539338361076dd3751c7055426ce0815ce3a5a843a9d1f448",
+    "events.jsonl": "f1c9bd80da541f00f29ff078091d2e5d72f445c22ff949a2597c68a2bdd1547b",
     "programme.md": "b74188017b528051e0c92860798e9a401bc3558f8638ba8299a5bb41bb4d3120",
-    "checkpoint.json": "78d529cba43d3015458fb329cc0c06ce8435e2a013ccc31798002146d585c58b"
+    "checkpoint.json": "6cc4046d91a86b38de3075afdbf350bbe7c04b7e17f370d03b0772b3b0471824"
   },
   "training_mode": null,
   "not_a_new_observation": true,
@@ -1024,6 +1024,10 @@
         {
           "id": "policy-immediate-fork-diary-2026-11-21",
           "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-90-intention-2026-11-21",
+          "reason": "not a confirmed completed session"
         }
       ]
     },
@@ -1091,6 +1095,10 @@
         {
           "id": "policy-immediate-fork-diary-2026-11-21",
           "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-90-intention-2026-11-21",
+          "reason": "not a confirmed completed session"
         }
       ]
     }
@@ -1100,7 +1108,7 @@
     "Полный свежий объём вспомогательных упражнений не подтверждён.",
     "Новых замеров или выполненных тренировок этим изменением не добавлено."
   ],
-  "next_step": "Продолжить действующий сплит с последних подтверждённых результатов. В следующей тренировке жима оценить первый фактический подход; 80 кг 3×4–6 пока предложенный план, а не выполненная работа.",
+  "next_step": "В новом чате прочитать актуальный CURRENT.md и первичные записи. Составить тренировку ног с учётом желания использовать 90 кг в классическом приседе и фактической готовности после разминки. Предыдущие 90×5 дважды подтверждены сообщением, точные даты неизвестны. Новых выполненных подходов нет.",
   "limits": [
     "Unknown date is not chronological evidence.",
     "Incomplete coverage: zero recorded sets does not mean zero training.",
