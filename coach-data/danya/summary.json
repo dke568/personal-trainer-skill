@@ -2,12 +2,12 @@
   "schema_version": 2,
   "athlete_id": "danya",
   "as_of": "2026-11-21",
-  "source_parent_head": "f2a417283ab30722d3b02a34bea0335318134848",
+  "source_parent_head": "8e7eafa2725faa5ae1ac4fabb4b7b25df1ec9606",
   "input_sha256": {
     "profile.json": "266a163af4b98882f6f0f17c7708f137a9b75aa7a1fcadb9ab724932e31b599f",
-    "events.jsonl": "f1c9bd80da541f00f29ff078091d2e5d72f445c22ff949a2597c68a2bdd1547b",
-    "programme.md": "b74188017b528051e0c92860798e9a401bc3558f8638ba8299a5bb41bb4d3120",
-    "checkpoint.json": "6cc4046d91a86b38de3075afdbf350bbe7c04b7e17f370d03b0772b3b0471824"
+    "events.jsonl": "ec08eac2b7b34a7d920dbf69fed96614687bf63d431250423506973fcdbab7bd",
+    "programme.md": "59bfbc72c1e12e4de7b52064346c0dd77c194ef208a294d9c25b7ca745f21f47",
+    "checkpoint.json": "7cb93c855d01bb62f558a931ae3cf09e0a16c514797e96b329cbbe78f05e3ccd"
   },
   "training_mode": null,
   "not_a_new_observation": true,
@@ -825,6 +825,211 @@
         }
       ],
       "performed": false
+    },
+    {
+      "id": "legs-2026-11-21-90kg-autoregulated-plan",
+      "type": "plan",
+      "status": "planned",
+      "date": "2026-11-21",
+      "date_precision": "day",
+      "period": null,
+      "source": {
+        "kind": "assistant_proposal",
+        "note": "План по прямому запросу пользователя в новом чате: сегодня ноги, желаемый рабочий вес классического приседа 90 кг. Фактическая готовность и выполнение ещё не сообщены."
+      },
+      "exercises": [
+        {
+          "direct_muscles": [
+            "quadriceps",
+            "glutes"
+          ],
+          "exercise_id": "squat_barbell_back",
+          "indirect_muscles": [],
+          "load_basis": "barbell_total",
+          "name": "Классический присед со штангой на спине",
+          "notes": "Первый рабочий подход: ориентир 90×5 с запасом около 2 качественных повторов; не добирать число через технический отказ. Третий подход условный по качеству первых двух и восстановлению. Верх диапазона 6 не обязателен в первом подходе. При 90×4–5 на пределе снизить до 80–85 кг для оставшихся 1–2 подходов с запасом 2–3 либо закончить присед по состоянию. При боли, нестабильности или головокружении прекратить нагруженный присед и уточнить состояние; снижение веса само по себе не подтверждает безопасность. Отдых между рабочими 7–10 минут по предпочтению; перед первым тяжёлым 4–6 минут или дольше по восстановлению. Romaleos и наколенники, если используются, записать как условия; стойка с выставленными упорами или страхующим. Глубина привычная контролируемая.",
+          "sets": [
+            {
+              "kind": "warmup",
+              "load_kg": 20,
+              "reps_max": 10,
+              "reps_min": 8,
+              "rir": null
+            },
+            {
+              "kind": "warmup",
+              "load_kg": 40,
+              "reps": 5,
+              "rir": null
+            },
+            {
+              "kind": "warmup",
+              "load_kg": 60,
+              "reps": 3,
+              "rir": null
+            },
+            {
+              "kind": "warmup",
+              "load_kg": 75,
+              "reps": 2,
+              "rir": null
+            },
+            {
+              "kind": "warmup",
+              "load_kg": 85,
+              "reps": 1,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps_max": 6,
+              "reps_min": 4,
+              "rir": 2
+            },
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps_max": 6,
+              "reps_min": 4,
+              "rir": 2
+            },
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps_max": 6,
+              "reps_min": 4,
+              "rir": 2
+            }
+          ]
+        },
+        {
+          "direct_muscles": [
+            "hamstrings",
+            "glutes"
+          ],
+          "exercise_id": "romanian_deadlift_barbell",
+          "indirect_muscles": [
+            "spinal_erectors"
+          ],
+          "load_basis": "barbell_total",
+          "name": "Румынская тяга",
+          "notes": "До рабочих подходов 1–2 лёгких подводящих. Запас 2–3. Три подхода вместо прежних четырёх по 50×10 на эту пробу: больше тяжёлой работы приседа на 90 кг, оценить общую усталость. При утомлении поясницы уменьшить объём/пропустить; оценить после приседа.",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 50,
+              "reps_max": 10,
+              "reps_min": 8,
+              "rir": 2
+            },
+            {
+              "kind": "working",
+              "load_kg": 50,
+              "reps_max": 10,
+              "reps_min": 8,
+              "rir": 2
+            },
+            {
+              "kind": "working",
+              "load_kg": 50,
+              "reps_max": 10,
+              "reps_min": 8,
+              "rir": 2
+            }
+          ]
+        },
+        {
+          "direct_muscles": [
+            "quadriceps",
+            "glutes"
+          ],
+          "equipment_id": "unknown",
+          "exercise_id": "leg_press_unknown_machine",
+          "indirect_muscles": [],
+          "load_basis": "plates_only",
+          "name": "Жим ногами",
+          "notes": "Вес подобрать после лёгкого подводящего подхода. Прежние около 100 кг — только блины без платформы и только ориентир на той же машине. На другую машину число не переносить.",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": null,
+              "reps_max": 12,
+              "reps_min": 10,
+              "rir": 2
+            },
+            {
+              "kind": "working",
+              "load_kg": null,
+              "reps_max": 12,
+              "reps_min": 10,
+              "rir": 2
+            }
+          ]
+        },
+        {
+          "direct_muscles": [
+            "hamstrings"
+          ],
+          "equipment_id": "unknown",
+          "exercise_id": "leg_curl_machine",
+          "indirect_muscles": [],
+          "load_basis": "machine_stack_label",
+          "name": "Сгибание ног",
+          "notes": "Предложенная помощь в рамках известной основы; свежий полный объём не подтверждён. Вес подбирается по запасу.",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": null,
+              "reps_max": 15,
+              "reps_min": 10,
+              "rir": 2
+            },
+            {
+              "kind": "working",
+              "load_kg": null,
+              "reps_max": 15,
+              "reps_min": 10,
+              "rir": 2
+            }
+          ]
+        },
+        {
+          "direct_muscles": [
+            "calves"
+          ],
+          "equipment_id": "unknown",
+          "exercise_id": "calf_raise_unspecified",
+          "indirect_muscles": [],
+          "load_basis": "other",
+          "name": "Подъёмы на носки / икры",
+          "notes": "Способ и вес пока неизвестны; привычное переносимое упражнение. Весь объём помощи уточнить после приседа, не считать выполненным.",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": null,
+              "reps_max": 15,
+              "reps_min": 10,
+              "rir": 2
+            },
+            {
+              "kind": "working",
+              "load_kg": null,
+              "reps_max": 15,
+              "reps_min": 10,
+              "rir": 2
+            },
+            {
+              "kind": "working",
+              "load_kg": null,
+              "reps_max": 15,
+              "reps_min": 10,
+              "rir": 2
+            }
+          ]
+        }
+      ],
+      "performed": false
     }
   ],
   "measurements": [
@@ -1028,6 +1233,10 @@
         {
           "id": "legs-90-intention-2026-11-21",
           "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-90kg-autoregulated-plan",
+          "reason": "not a confirmed completed session"
         }
       ]
     },
@@ -1099,6 +1308,10 @@
         {
           "id": "legs-90-intention-2026-11-21",
           "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-90kg-autoregulated-plan",
+          "reason": "not a confirmed completed session"
         }
       ]
     }
@@ -1106,9 +1319,10 @@
   "open_questions": [
     "Точные даты ноябрьских приседов 90×5 дважды и жима 80×5 неизвестны.",
     "Полный свежий объём вспомогательных упражнений не подтверждён.",
-    "Новых замеров или выполненных тренировок этим изменением не добавлено."
+    "Новых замеров или выполненных тренировок этим изменением не добавлено.",
+    "Сегодняшняя готовность (сон, боль, остаточная усталость и подводящие подходы) ещё не сообщена."
   ],
-  "next_step": "В новом чате прочитать актуальный CURRENT.md и первичные записи. Составить тренировку ног с учётом желания использовать 90 кг в классическом приседе и фактической готовности после разминки. Предыдущие 90×5 дважды подтверждены сообщением, точные даты неизвестны. Новых выполненных подходов нет.",
+  "next_step": "Получить краткий отчёт о сегодняшнем сне/самочувствии, боли или необычной усталости и подводящем 85×1. При комфортной разминке — первый рабочий присед 90 кг с ориентиром пять повторов и запасом около двух; затем адаптировать оставшиеся подходы и помощь. Каждый фактический отчёт немедленно сохранять отдельным событием с датой и условиями, не превращая план в выполнение.",
   "limits": [
     "Unknown date is not chronological evidence.",
     "Incomplete coverage: zero recorded sets does not mean zero training.",
