@@ -2,12 +2,12 @@
   "schema_version": 2,
   "athlete_id": "danya",
   "as_of": "2026-11-21",
-  "source_parent_head": "b531d9eec4def469f9d2b5e7683b1f9c4e374e73",
+  "source_parent_head": "9fc22231b2672179ddc7687ce437f7612cc8735d",
   "input_sha256": {
     "profile.json": "266a163af4b98882f6f0f17c7708f137a9b75aa7a1fcadb9ab724932e31b599f",
-    "events.jsonl": "ac20e3e0e840784724f31c095e011aa2471a1825e0abe2a40a6eeb5418da2d5f",
+    "events.jsonl": "cfea6c1b991a4bbcba90f0233c85222ea851b4a5252b3660cc348859166e8de1",
     "programme.md": "59bfbc72c1e12e4de7b52064346c0dd77c194ef208a294d9c25b7ca745f21f47",
-    "checkpoint.json": "c0402f4b1e0f3fd14036364388b448fa964eb2508306315a8953c82306b6c526"
+    "checkpoint.json": "0cda3364ee4364fb6c3c71de12392c5d12031c9c5b0e7bfdc5ad6412942664db"
   },
   "training_mode": null,
   "not_a_new_observation": true,
@@ -108,6 +108,33 @@
               "kind": "working",
               "load_kg": 90,
               "reps": 5,
+              "rir": null
+            }
+          ]
+        },
+        {
+          "event_id": "legs-2026-11-21-live-squat3x4-rdl2x8",
+          "date": "2026-11-21",
+          "date_precision": "day",
+          "period": null,
+          "status": "in_progress",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps": 4,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps": 4,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps": 4,
               "rir": null
             }
           ]
@@ -219,6 +246,29 @@
               "kind": "working",
               "load_kg": 50,
               "reps": 10,
+              "rir": null
+            }
+          ]
+        },
+        {
+          "event_id": "legs-2026-11-21-live-squat3x4-rdl2x8",
+          "date": "2026-11-21",
+          "date_precision": "day",
+          "period": null,
+          "status": "in_progress",
+          "sets": [
+            {
+              "effort_reported": "очень большой запас",
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 8,
+              "rir": null
+            },
+            {
+              "effort_reported": "очень большой запас",
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 8,
               "rir": null
             }
           ]
@@ -705,6 +755,81 @@
         }
       ],
       "comparability": "Same exercise/load basis is insufficient: verify machine, ROM, technique, rest, RIR and equipment."
+    },
+    {
+      "id": "legs-2026-11-21-live-squat3x4-rdl2x8",
+      "type": "session",
+      "status": "in_progress",
+      "date": "2026-11-21",
+      "date_precision": "day",
+      "period": null,
+      "source": {
+        "kind": "user_report",
+        "note": "Текущий прямой отчёт: три глубоких со слов пользователя приседа 90×4; заметил в зеркале перенос веса на одну ногу и замедлил выполнение ради техники. Румынская 50×8 два подхода с очень большим запасом; третий планирует на 60 кг."
+      },
+      "exercises": [
+        {
+          "direct_muscles": [
+            "quadriceps",
+            "glutes"
+          ],
+          "exercise_id": "squat_barbell_back",
+          "indirect_muscles": [],
+          "load_basis": "barbell_total",
+          "name": "Классический присед со штангой на спине",
+          "notes": "Все три подхода выполнены по отчёту. Достаточно глубоко со слов пользователя, видео не предоставлено. Увидел в зеркале перед собой перенос нагрузки на одну ногу, сторону не назвал; приседал медленнее с вниманием к технике. Исчезло ли смещение после замедления, неизвестно. Точный темп, RIR, паузы и экипировка не сообщены. Не выводить причину, диагноз или распределение усилий из зеркального наблюдения.",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps": 4,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps": 4,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 90,
+              "reps": 4,
+              "rir": null
+            }
+          ]
+        },
+        {
+          "direct_muscles": [
+            "hamstrings",
+            "glutes"
+          ],
+          "exercise_id": "romanian_deadlift_barbell",
+          "indirect_muscles": [
+            "spinal_erectors"
+          ],
+          "load_basis": "barbell_total",
+          "name": "Румынская тяга",
+          "notes": "Два подхода завершены. Числовой RIR не назначен задним числом. Третий на 60 кг только планируется и в выполнение не включён.",
+          "sets": [
+            {
+              "effort_reported": "очень большой запас",
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 8,
+              "rir": null
+            },
+            {
+              "effort_reported": "очень большой запас",
+              "kind": "working",
+              "load_kg": 50,
+              "reps": 8,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "comparability": "Same exercise/load basis is insufficient: verify machine, ROM, technique, rest, RIR and equipment."
     }
   ],
   "active_plans_not_performed": [
@@ -1030,6 +1155,78 @@
         }
       ],
       "performed": false
+    },
+    {
+      "id": "legs-2026-11-21-rdl-third-60-intent",
+      "type": "plan",
+      "status": "planned",
+      "date": "2026-11-21",
+      "date_precision": "day",
+      "period": null,
+      "source": {
+        "kind": "user_report",
+        "note": "«Сделал 2 подхода, третий сделаю с 60». Это намерение, не выполненный подход."
+      },
+      "exercises": [
+        {
+          "direct_muscles": [
+            "hamstrings",
+            "glutes"
+          ],
+          "exercise_id": "romanian_deadlift_barbell",
+          "indirect_muscles": [
+            "spinal_erectors"
+          ],
+          "load_basis": "barbell_total",
+          "name": "Румынская тяга",
+          "notes": "Третий подход. Число повторов в намерении не указано; выполнение ещё не сообщено.",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 60,
+              "reps": null,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "performed": false
+    },
+    {
+      "id": "legs-2026-11-21-live-technical-adjustment",
+      "type": "plan",
+      "status": "adjusted",
+      "date": "2026-11-21",
+      "date_precision": "day",
+      "period": null,
+      "source": {
+        "kind": "assistant_proposal",
+        "note": "Практическая корректировка после прямого отчёта; не подтверждает принятие или выполнение."
+      },
+      "exercises": [
+        {
+          "direct_muscles": [
+            "hamstrings",
+            "glutes"
+          ],
+          "exercise_id": "romanian_deadlift_barbell",
+          "indirect_muscles": [
+            "spinal_erectors"
+          ],
+          "load_basis": "barbell_total",
+          "name": "Румынская тяга",
+          "notes": "Ориентир 60×8 с запасом 2–3 качественных повтора, только при контролируемой технике, устойчивой опоре и отсутствии боли/ощущения нестабильности. Если появляется перенос нагрузки, нарушается контроль или возникает боль — закончить подход; не добирать повторы любой ценой.",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 60,
+              "reps": 8,
+              "rir": 2
+            }
+          ]
+        }
+      ],
+      "performed": false
     }
   ],
   "measurements": [
@@ -1241,6 +1438,18 @@
         {
           "id": "pre-legs-readiness-2026-11-21-7to8h",
           "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-live-squat3x4-rdl2x8",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-rdl-third-60-intent",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-live-technical-adjustment",
+          "reason": "not a confirmed completed session"
         }
       ]
     },
@@ -1320,6 +1529,18 @@
         {
           "id": "pre-legs-readiness-2026-11-21-7to8h",
           "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-live-squat3x4-rdl2x8",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-rdl-third-60-intent",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-live-technical-adjustment",
+          "reason": "not a confirmed completed session"
         }
       ]
     }
@@ -1327,10 +1548,11 @@
   "open_questions": [
     "Точные даты ноябрьских приседов 90×5 дважды и жима 80×5 неизвестны.",
     "Полный свежий объём вспомогательных упражнений не подтверждён.",
-    "Новых замеров или выполненных тренировок этим изменением не добавлено.",
-    "Самочувствие ближе к тренировке и тяжесть сегодняшних подводящих подходов ещё не сообщены."
+    "Самочувствие ближе к тренировке и тяжесть сегодняшних подводящих подходов ещё не сообщены.",
+    "Неизвестно, на какую ногу смещалась нагрузка в приседе 21 ноября, сохранялось ли смещение после замедления и были ли боль/нестабильность.",
+    "Третий подход румынской на 60 кг ещё не подтверждён; фактические повторы и запас неизвестны. Тренировка продолжается."
   ],
-  "next_step": "Ближе к тренировке уточнить изменившееся самочувствие при необходимости. В зале выполнить предложенную разминку и получить отчёт о подводящем 85×1, затем определить первый рабочий подход на 90 кг по качеству и запасу. Сохранять каждый фактический отчёт сразу; до отчёта не добавлять выполненных подходов. План остаётся предложением.",
+  "next_step": "Спросить, на какую ногу смещал нагрузку, исчезло ли смещение при замедлении и были ли боль/нестабильность. Получить результат третьего подхода румынской на 60 кг (реальные повторы, запас и ощущения), затем обновить незавершённую session через supersedes=legs-2026-11-21-live-squat3x4-rdl2x8 с сохранением ранее выполненных подходов, без дублирования. Остаток тренировки пока не выполнен и не подтверждён; уточнить по текущему состоянию.",
   "limits": [
     "Unknown date is not chronological evidence.",
     "Incomplete coverage: zero recorded sets does not mean zero training.",
