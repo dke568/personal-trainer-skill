@@ -2,12 +2,12 @@
   "schema_version": 2,
   "athlete_id": "danya",
   "as_of": "2026-11-21",
-  "source_parent_head": "8e7eafa2725faa5ae1ac4fabb4b7b25df1ec9606",
+  "source_parent_head": "b531d9eec4def469f9d2b5e7683b1f9c4e374e73",
   "input_sha256": {
     "profile.json": "266a163af4b98882f6f0f17c7708f137a9b75aa7a1fcadb9ab724932e31b599f",
-    "events.jsonl": "ec08eac2b7b34a7d920dbf69fed96614687bf63d431250423506973fcdbab7bd",
+    "events.jsonl": "ac20e3e0e840784724f31c095e011aa2471a1825e0abe2a40a6eeb5418da2d5f",
     "programme.md": "59bfbc72c1e12e4de7b52064346c0dd77c194ef208a294d9c25b7ca745f21f47",
-    "checkpoint.json": "7cb93c855d01bb62f558a931ae3cf09e0a16c514797e96b329cbbe78f05e3ccd"
+    "checkpoint.json": "c0402f4b1e0f3fd14036364388b448fa964eb2508306315a8953c82306b6c526"
   },
   "training_mode": null,
   "not_a_new_observation": true,
@@ -1237,6 +1237,10 @@
         {
           "id": "legs-2026-11-21-90kg-autoregulated-plan",
           "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "pre-legs-readiness-2026-11-21-7to8h",
+          "reason": "not a confirmed completed session"
         }
       ]
     },
@@ -1312,6 +1316,10 @@
         {
           "id": "legs-2026-11-21-90kg-autoregulated-plan",
           "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "pre-legs-readiness-2026-11-21-7to8h",
+          "reason": "not a confirmed completed session"
         }
       ]
     }
@@ -1320,9 +1328,9 @@
     "Точные даты ноябрьских приседов 90×5 дважды и жима 80×5 неизвестны.",
     "Полный свежий объём вспомогательных упражнений не подтверждён.",
     "Новых замеров или выполненных тренировок этим изменением не добавлено.",
-    "Сегодняшняя готовность (сон, боль, остаточная усталость и подводящие подходы) ещё не сообщена."
+    "Самочувствие ближе к тренировке и тяжесть сегодняшних подводящих подходов ещё не сообщены."
   ],
-  "next_step": "Получить краткий отчёт о сегодняшнем сне/самочувствии, боли или необычной усталости и подводящем 85×1. При комфортной разминке — первый рабочий присед 90 кг с ориентиром пять повторов и запасом около двух; затем адаптировать оставшиеся подходы и помощь. Каждый фактический отчёт немедленно сохранять отдельным событием с датой и условиями, не превращая план в выполнение.",
+  "next_step": "Ближе к тренировке уточнить изменившееся самочувствие при необходимости. В зале выполнить предложенную разминку и получить отчёт о подводящем 85×1, затем определить первый рабочий подход на 90 кг по качеству и запасу. Сохранять каждый фактический отчёт сразу; до отчёта не добавлять выполненных подходов. План остаётся предложением.",
   "limits": [
     "Unknown date is not chronological evidence.",
     "Incomplete coverage: zero recorded sets does not mean zero training.",
