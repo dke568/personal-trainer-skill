@@ -2,12 +2,12 @@
   "schema_version": 2,
   "athlete_id": "danya",
   "as_of": "2026-11-21",
-  "source_parent_head": "c93b3a6d6005ec43a915a8b18ff230be98130bf1",
+  "source_parent_head": "7e993ea39062159dd34fcc724c8e13e66e79b0d8",
   "input_sha256": {
     "profile.json": "266a163af4b98882f6f0f17c7708f137a9b75aa7a1fcadb9ab724932e31b599f",
-    "events.jsonl": "dcb81e693eaadd911134a0bc33ecbf667586da1d2979d39b21da4a0f09d13f8a",
+    "events.jsonl": "1b9f9c40a1009b441946d9b489476534b7ed09c8cf639a4280b075657e6e0b15",
     "programme.md": "59bfbc72c1e12e4de7b52064346c0dd77c194ef208a294d9c25b7ca745f21f47",
-    "checkpoint.json": "0a03685b533a5c04ddcf78adffd1792555de51c8140a39de5dcec5c90c71275f"
+    "checkpoint.json": "81ef14439404b0a996b2822ce1df56affbb01aaf944a5e7292ca6ff2a37d9950"
   },
   "training_mode": null,
   "not_a_new_observation": true,
@@ -113,7 +113,7 @@
           ]
         },
         {
-          "event_id": "legs-2026-11-21-live-legpress120-curls82",
+          "event_id": "legs-2026-11-21-rdl60x10-calves40x10x3",
           "date": "2026-11-21",
           "date_precision": "day",
           "period": null,
@@ -251,7 +251,7 @@
           ]
         },
         {
-          "event_id": "legs-2026-11-21-live-legpress120-curls82",
+          "event_id": "legs-2026-11-21-rdl60x10-calves40x10x3",
           "date": "2026-11-21",
           "date_precision": "day",
           "period": null,
@@ -274,7 +274,7 @@
             {
               "kind": "working",
               "load_kg": 60,
-              "reps": null,
+              "reps": 10,
               "rir": null
             }
           ]
@@ -374,7 +374,7 @@
       "dated_completed": [],
       "uncertain": [
         {
-          "event_id": "legs-2026-11-21-live-legpress120-curls82",
+          "event_id": "legs-2026-11-21-rdl60x10-calves40x10x3",
           "date": "2026-11-21",
           "date_precision": "day",
           "period": null,
@@ -404,7 +404,7 @@
       "dated_completed": [],
       "uncertain": [
         {
-          "event_id": "legs-2026-11-21-live-legpress120-curls82",
+          "event_id": "legs-2026-11-21-rdl60x10-calves40x10x3",
           "date": "2026-11-21",
           "date_precision": "day",
           "period": null,
@@ -419,6 +419,42 @@
             {
               "kind": "working",
               "load_kg": 82,
+              "reps": 10,
+              "rir": null
+            }
+          ]
+        }
+      ],
+      "comparability_verified": false
+    },
+    {
+      "exercise_id": "calf_raise_unspecified",
+      "load_basis": "other",
+      "equipment_id": "unknown",
+      "dated_completed": [],
+      "uncertain": [
+        {
+          "event_id": "legs-2026-11-21-rdl60x10-calves40x10x3",
+          "date": "2026-11-21",
+          "date_precision": "day",
+          "period": null,
+          "status": "in_progress",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 40,
+              "reps": 10,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 40,
+              "reps": 10,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 40,
               "reps": 10,
               "rir": null
             }
@@ -823,7 +859,7 @@
       "comparability": "Same exercise/load basis is insufficient: verify machine, ROM, technique, rest, RIR and equipment."
     },
     {
-      "id": "legs-2026-11-21-live-legpress120-curls82",
+      "id": "legs-2026-11-21-rdl60x10-calves40x10x3",
       "type": "session",
       "status": "in_progress",
       "date": "2026-11-21",
@@ -831,7 +867,7 @@
       "period": null,
       "source": {
         "kind": "user_report",
-        "note": "Продолжение прямого отчёта: «Сделал как хотел», затем жим ногами на платформе 120×12 и 120×8; из-за неприятного ощущения прекратил упражнение. Сгибания 68×15 и 82×10. Предыдущие подтверждённые присед и румынская перенесены без удвоения."
+        "note": "Два последовательных прямых сообщения: при ощупывании TFL сам не болит, ощущение глубже и, возможно, ближе к внутренней стороне бедра; конкретный источник неизвестен. Затем уточнил румынскую: 60 кг на 10 повторов; икры: 40 кг, три подхода по 10."
       },
       "exercises": [
         {
@@ -876,7 +912,7 @@
           ],
           "load_basis": "barbell_total",
           "name": "Румынская тяга",
-          "notes": "Первые два подхода 50×8 подтверждены ранее с очень большим запасом. «Сделал как хотел» в контексте намерения сделать третий на 60 кг записано как подтверждение третьего подхода на 60 кг; число повторов и запас не уточнены. Не подставлять предложенные тренером восемь повторов как факт.",
+          "notes": "Румынская: 50×8 дважды с ранее описанным очень большим запасом; третий 60×10 теперь прямо уточнён пользователем. Числовой RIR третьего подхода неизвестен. Не подставлять тренерский ориентир запаса как факт.",
           "sets": [
             {
               "effort_reported": "очень большой запас",
@@ -895,7 +931,7 @@
             {
               "kind": "working",
               "load_kg": 60,
-              "reps": null,
+              "reps": 10,
               "rir": null
             }
           ]
@@ -910,7 +946,7 @@
           "indirect_muscles": [],
           "load_basis": "other",
           "name": "Жим ногами на платформе",
-          "notes": "Поставил 120 кг по прямому отчёту. Предыдущие данные о платформе использовали вес блинов, но в этом сообщении пользователь отдельно не уточнил включение массы платформы; basis текущей записи оставлен other до уточнения, не переносить на другую машину. Во втором подходе описал неприятное ощущение и решил больше не делать упражнение. Локализация, характер, интенсивность, сторона и сохранение после подхода неизвестны; не называть автоматически болью в колене.",
+          "notes": "Поставил 120 кг по прямому отчёту. Предыдущие данные о платформе использовали вес блинов, но в этом сообщении пользователь отдельно не уточнил включение массы платформы; basis текущей записи оставлен other до уточнения, не переносить на другую машину. Во втором подходе описал неприятное ощущение и решил больше не делать упражнение. Локализация, характер, интенсивность, сторона и сохранение после подхода неизвестны; не называть автоматически болью в колене. Позднейшее уточнение локализации: ощущение справа, глубже области пальпируемого TFL, возможно с внутренней стороны бедра; сам пальпируемый TFL по словам пользователя не болит. Точная ткань не установлена.",
           "sets": [
             {
               "kind": "working",
@@ -946,6 +982,37 @@
             {
               "kind": "working",
               "load_kg": 82,
+              "reps": 10,
+              "rir": null
+            }
+          ]
+        },
+        {
+          "direct_muscles": [
+            "calves"
+          ],
+          "equipment_id": "unknown",
+          "exercise_id": "calf_raise_unspecified",
+          "indirect_muscles": [],
+          "load_basis": "other",
+          "name": "Подъёмы на носки / икры",
+          "notes": "Три выполненных подхода 40×10 по прямому отчёту. Вариант упражнения, тренажёр и основание веса (блины/стек/общая масса) не уточнены; поэтому load_basis=other. Переносимость по ощущениям и RIR не сообщены.",
+          "sets": [
+            {
+              "kind": "working",
+              "load_kg": 40,
+              "reps": 10,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 40,
+              "reps": 10,
+              "rir": null
+            },
+            {
+              "kind": "working",
+              "load_kg": 40,
               "reps": 10,
               "rir": null
             }
@@ -1571,10 +1638,6 @@
           "reason": "not a confirmed completed session"
         },
         {
-          "id": "legs-2026-11-21-live-legpress120-curls82",
-          "reason": "not a confirmed completed session"
-        },
-        {
           "id": "legs-2026-11-21-pause-after-legpress-discomfort",
           "reason": "not a confirmed completed session"
         },
@@ -1587,7 +1650,15 @@
           "reason": "not a confirmed completed session"
         },
         {
-          "id": "legs-2026-11-21-tfl-right-self-localization",
+          "id": "legs-2026-11-21-deeper-right-hip-location-correction",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-rdl60x10-calves40x10x3",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-deep-hip-symptom-followup-plan",
           "reason": "not a confirmed completed session"
         }
       ]
@@ -1678,10 +1749,6 @@
           "reason": "not a confirmed completed session"
         },
         {
-          "id": "legs-2026-11-21-live-legpress120-curls82",
-          "reason": "not a confirmed completed session"
-        },
-        {
           "id": "legs-2026-11-21-pause-after-legpress-discomfort",
           "reason": "not a confirmed completed session"
         },
@@ -1694,7 +1761,15 @@
           "reason": "not a confirmed completed session"
         },
         {
-          "id": "legs-2026-11-21-tfl-right-self-localization",
+          "id": "legs-2026-11-21-deeper-right-hip-location-correction",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-rdl60x10-calves40x10x3",
+          "reason": "not a confirmed completed session"
+        },
+        {
+          "id": "legs-2026-11-21-deep-hip-symptom-followup-plan",
           "reason": "not a confirmed completed session"
         }
       ]
@@ -1705,11 +1780,11 @@
     "Полный свежий объём вспомогательных упражнений не подтверждён.",
     "Самочувствие ближе к тренировке и тяжесть сегодняшних подводящих подходов ещё не сообщены.",
     "Неизвестно, на какую ногу смещалась нагрузка в приседе 21 ноября, сохранялось ли смещение после замедления и были ли боль/нестабильность.",
-    "Третий подход румынской на 60 кг подтверждён фразой «сделал как хотел»; фактические повторы и запас пока неизвестны.",
     "Для жима ногами 120 кг не уточнено, только ли это блины без платформы; модель платформы и тренажёра сгибаний неизвестны.",
-    "Пользователь называет область напрягателя широкой фасции бедра (TFL) справа источником ощущения. Это его локализация/интерпретация; конкретная ткань и причина не подтверждены. Сохраняется ли при ходьбе, было ли при сгибаниях, характер и выраженность пока неизвестны."
+    "Ощущение справа кажется глубже пальпируемого TFL (сам TFL при ощупывании не болит), возможно ближе к внутренней стороне бедра. Точная ткань, характер, выраженность, динамика, наличие при обычной ходьбе/сгибаниях остаются неизвестными.",
+    "Для румынской 60×10 числовой запас неизвестен. Для икр 40×10×3 неизвестны вариант, тренажёр и основание массы. Окончание тренировки явно не подтверждено."
   ],
-  "next_step": "Принять названную пользователем область TFL справа как ориентир локализации; не спорить о терминах и не объявлять травму. Уточнить, осталось ли ощущение при обычной ходьбе сейчас или было только во время жима ногами. Жим ногами сегодня не возобновлять; рекомендация закончить тяжёлую работу ног остаётся предложением до отчёта пользователя. Число повторов румынской на 60 кг и фактическое завершение тренировки по-прежнему неизвестны. При новых подходах продолжать session через supersedes=legs-2026-11-21-live-legpress120-curls82.",
+  "next_step": "Уточнить, есть ли сейчас ощущение при обычной ходьбе или хромота; завершение тренировки не предполагать по перечислению икр. Новые нагруженные подходы на ноги сегодня не предлагать. При новых результатах/подтверждении окончания обновить session через supersedes=legs-2026-11-21-rdl60x10-calves40x10x3, сохранив все 13 подтверждённых рабочих подходов без удвоения. Уточнять оборудование икр/платформы и сторону смещения приседа позже, не отвлекая от текущего самочувствия.",
   "limits": [
     "Unknown date is not chronological evidence.",
     "Incomplete coverage: zero recorded sets does not mean zero training.",
